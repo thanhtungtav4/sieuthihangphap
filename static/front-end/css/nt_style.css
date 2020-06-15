@@ -1,0 +1,73 @@
+.hight-menu{
+	height: 23px;
+	background-color: #21759b;
+}
+.logo-product-item{
+	padding-top: 20px;
+}
+.banner-top-section {
+    padding:15px;
+}
+.banner-right-txt {
+    padding:15px;
+}
+
+.banner-bottom-section {
+    padding:15px;
+}
+/*//*/
+.nt-tab-product .nav-item .nav-link{
+	font-weight: 600;
+    color: #4a6d81;
+    font-size: 1.4rem;
+}
+.nt-tab-product .nav-item .active, .nt-tab-product .nav-item .nav-link:hover{
+	font-weight: 700;
+    color: #4a6d81;
+    font-size: 1.5rem;
+}
+.nt-tab-product{
+	border-bottom: 1px solid #4a6d81;
+}
+.nt-tab-product .nav-link:hover{
+	border-bottom: 2px solid #4a6d81;
+}
+.item-description{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 25px;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+
+}
+.footer-info {
+    background-color: #a5c0d1;
+}
+.footer-info{
+	color: #4a6d81;
+}
+.nt-with-padding{
+	width:150px;
+}
+.nt-acc{
+	font-size: 1.5rem;
+    color: #4a6d81
+}
+.login-home{
+	font-size: 1.6rem;
+    font-weight: 700;
+    color: red;
+}
+.nt-line{
+	width: 65%;
+    border-bottom: 1px solid #4a6d81;
+    margin: 0 auto;
+}
+.nt-link-box a{
+     color: #a5c0d1 !important;
+}
+.nt-link-box a:hover{
+     color: #4a6d81;
+}
+}

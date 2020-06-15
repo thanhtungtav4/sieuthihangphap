@@ -1,0 +1,221 @@
+/* loading */
+.slick-slider {margin-bottom:10px!important}
+.btn-cart {
+    right:25px;
+}
+.back-to-top {
+    bottom:160px;
+    right:30px;
+}
+.step h4{color: #4a6d81;font-weight: 700; text-transform: uppercase; font-size: 16px; margin-bottom: 0;
+	overflow: hidden;
+    display: -moz-box;
+    display: -webkit-box;
+    display: box;
+    -webkit-line-clamp: 2;
+    -moz-box-orient: vertical;
+    -webkit-box-orient: vertical;
+    box-orient: vertical;
+    word-break: break-word;
+}
+.wishlist-table td {vertical-align: middle}
+.wishlist-content .product-home-title a {color: #a24531}
+.group-product-item .item-name a {color: inherit}
+table tr td {vertical-align: middle}
+.groupQty .btn-primary {
+    background-color: #71372b!important;
+    border-color: #71372b!important;
+    color: #fff!important;
+}
+.header-slide-thumb a {
+    padding-bottom: 30%!important;
+}
+.slide {margin: 0!important;}
+.item-new {color: #974a37; background: #FFF}
+.arrow-down {border-top-color: #FFF}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    font-weight: 600;
+    color:#4a6d81 ;
+}
+.item-best-seller {background-color: #e84c3d}
+.item-discount{padding: 13px 8px}
+.category-name a {font-weight: 700}
+.custom-control-label::before {
+    background-color : #974a37!important;
+}
+#fade {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    display: none;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+.my-spinner {
+    font-size: 10px;
+    height: 30px;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 50px;
+}
+.my-spinner > div {
+    animation: 1.2s ease-in-out 0s normal none infinite running stretchdelay;
+    background-color: #fff;
+    display: inline-block;
+    height: 100%;
+    width: 6px;
+}
+.my-spinner .rect2 {
+    animation-delay: -1.1s;
+}
+.my-spinner .rect3 {
+    animation-delay: -1s;
+}
+.my-spinner .rect4 {
+    animation-delay: -0.9s;
+}
+.my-spinner .rect5 {
+    animation-delay: -0.8s;
+}
+@keyframes stretchdelay {
+    0%, 40%, 100% {
+        transform: scaleY(0.4);
+    }
+    20% {
+        transform: scaleY(1);
+    }
+}
+@keyframes stretchdelay {
+    0%, 40%, 100% {
+        transform: scaleY(0.4);
+    }
+    20% {
+        transform: scaleY(1);
+    }
+}
+
+#myTabContent img {
+    max-width: 100% !important;
+    height: auto !important;
+}
+.nt-hight-input{
+    height: 32px;
+}
+.nt-seach-btn{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.fa-phone:before ,.fa-map-marker:before{
+    font-size: 25px;
+    color:#4b6e81;
+}
+#navbarSupportedContent{
+    background: #a5c0d1;
+}
+.w-80{
+    width:90%;
+}
+.header-menu {
+    background-color: #edeee8;
+}
+.align-items-center .register span a {
+    color: #4a6d81;
+    font-weight: bold;
+}
+.cart-nt{
+    position: relative;
+}
+
+.container-fluid{
+    position: relative;
+}
+.owl-slider .item img{
+    height: 450px;
+}
+
+.owl-theme .custom-nav{
+    position: absolute;
+    top: 35%;
+    /*   width:100%; */
+    /*   background-color:grey; */
+    left: 0;
+    right: 0;
+}
+.owl-dots{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+}
+
+.owl-theme .custom-nav .owl-prev, .owl-theme .custom-nav .owl-next,{
+    height: 100px;
+}
+
+.owl-theme .custom-nav .owl-prev i, .owl-theme .custom-nav .owl-next i {
+    font-size: 2.5rem;
+    color: white;
+    text-shadow:2px 2px 3px black;
+}
+
+/* stylise navigation arrows individually */
+.owl-theme .custom-nav .owl-prev {
+    position: absolute;
+    top: 25%;
+    margin-left: 10px;
+    display: block !important;
+    z-index: 100;
+    background-color:none !important;
+}
+.owl-theme .custom-nav .owl-next {
+    position: absolute;
+    top: 25%;
+    right: 10px;
+    display: block !important;
+    z-index: 100;
+    background-color: none;
+}
+
+
+/* stylise navigation arrow background */
+.owl-theme .owl-nav [class*="owl-"]{
+    background: none;
+    border: none;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover{
+    background:rgba(22,22,22,0.75);
+}
+
+/* --------- Captions ------*/
+.caption{
+    /*     background-color: rgba(3,3,3,0.15); */
+    border: none;
+    position: absolute;
+    top: 30%;/* vertical offset*/
+    left: 20%;/* horizontal offset*/
+    width: 60vw; /* width to centralise */
+    height: 50%; /* width to centralise */
+}
+
+
+/* ------ random css ----*/
+.item h2, .item p{
+    padding: 0.5rem;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+
+#loading-dt {  width: 100%; height: 100%; background: #fff; position: fixed; z-index: 9999; top: 0; left: 0; }
+#loading-dt .spinner {     top: 50%;margin: -20px auto 0 auto; width: 40px; height: 40px; position: relative; text-align: center; -webkit-animation: sk-rotate 2.0s infinite linear; animation: sk-rotate 2.0s infinite linear;}
+#loading-dt .dot1,#loading-dt .dot2 {width: 60%;height: 60%; display: inline-block; position: absolute; top: 0;background-color: #e32c24; border-radius: 100%; -webkit-animation: sk-bounce 2.0s infinite ease-in-out; animation: sk-bounce 2.0s infinite ease-in-out;}
+#loading-dt .dot2 { top: auto; bottom: 0;-webkit-animation-delay: -1.0s; animation-delay: -1.0s;}
+@-webkit-keyframes sk-rotate { 100% { -webkit-transform: rotate(360deg) }}
+@keyframes sk-rotate { 100% { transform: rotate(360deg); -webkit-transform: rotate(360deg) }}
+@-webkit-keyframes sk-bounce {  0%, 100% { -webkit-transform: scale(0.0) } 50% { -webkit-transform: scale(1.0) }}
+@keyframes sk-bounce { 0%, 100% {   transform: scale(0.0);  -webkit-transform: scale(0.0);} 50% {   transform: scale(1.0);  -webkit-transform: scale(1.0);}}
+@keyframes pulsate { 0% {  transform: scale(.1);    opacity: 0.0;  }50% {  opacity: 1;  } 100% { transform: scale(1.2);opacity: 0;}}
