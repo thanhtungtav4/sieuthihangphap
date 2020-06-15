@@ -161,6 +161,16 @@ table tr td {vertical-align: middle}
     color: white;
     text-shadow:2px 2px 3px black;
 }
+.swim-container > img:first-child {
+    opacity: 1;
+    transition: all 0.7s;
+    z-index: 100;
+}
+
+.swim-container:hover > img:first-child {
+    opacity: 0;
+    transition: all 0.7s;
+}
 
 /* stylise navigation arrows individually */
 .owl-theme .custom-nav .owl-prev {

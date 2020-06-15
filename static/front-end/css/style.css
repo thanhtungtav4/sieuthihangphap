@@ -285,7 +285,7 @@ label.star:before {
 .overlay{
 	width: 100%;
     height: 100%;
-    background: #71372b;
+    background: #a5bfd1;
     z-index: 1;
     position: absolute;
     top: 0;
@@ -343,7 +343,7 @@ label.star:before {
     top: 0;
     left: 0;
     object-fit: cover;
-    height: 100%;
+    height: auto;
     width: 100%;
     transition: 0.5s;
 
@@ -427,7 +427,7 @@ label.star:before {
 }
 
 
-.item-group-hot{position: absolute;z-index: 1;top: 0; left: 3%}
+.item-group-hot{position: absolute;z-index: 99900;top: 0; left: 3%}
 
 
 .item-new{
@@ -591,7 +591,7 @@ label.star:before {
 .news-thumb a { 
   display: block; 
   width: 100%; 
-  padding-bottom: 78.5%;  
+  padding-bottom: 95.5%;
   position: relative;  
   overflow: hidden;
 

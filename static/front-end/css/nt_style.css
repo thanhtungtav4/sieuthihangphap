@@ -6,14 +6,14 @@
 	padding-top: 20px;
 }
 .banner-top-section {
-    padding:15px;
+    padding:5px;
 }
 .banner-right-txt {
-    padding:15px;
+    padding:5px;
 }
 
 .banner-bottom-section {
-    padding:15px;
+    padding:5px;
 }
 /*//*/
 .nt-tab-product .nav-item .nav-link{
@@ -69,5 +69,4 @@
 }
 .nt-link-box a:hover{
      color: #4a6d81;
-}
 }
