@@ -70,3 +70,119 @@
 .nt-link-box a:hover{
      color: #4a6d81;
 }
+.is_mobile .money_number{
+    font-size: unset;
+    font-weight: 500
+}
+.is_mobile .cart-nt >img{
+    width: 31px;
+}
+.is_mobile .register {
+    font-size: 13px;
+}
+.is_mobile .cart-item-number {
+    position: absolute;
+    background: #a5c0d1;
+    color: #ff0000;
+    width: 14px;
+    height: 14px;
+    border-radius: 20px;
+    font-size: 10px;
+    padding: 1px 0px;
+    text-align: center;
+    right: 2px;
+    bottom: 9px;
+}
+.is_mobile  .overlay h4 {
+    font-size: 11px;
+}
+.is_mobile .logo-product-item{
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+.is_mobile .owl-theme .custom-nav{
+    top:36px
+}
+.banner-top-section .owl-nav button {
+    position: absolute;
+    top: 50%;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    transition: all 0.3s ease-in-out;
+}
+.banner-top-section .owl-nav button.owl-prev {
+    left: 0;
+}
+.banner-top-section .owl-nav button.owl-next {
+    right: 0;
+}
+.banner-top-section{
+    position: relative;
+}
+
+.banner-top-section .owl-nav button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%)
+}
+.banner-top-section span {
+    font-size: 70px;
+    position: relative;
+    top: -5px;
+}
+.banner-top-section .owl-nav button:focus {
+    outline: none;
+}
+@media screen and (max-width: 700px) {
+    .nt-tab-product .nav-item .nav-link{
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+    .nt-tab-product .nav-item .active, .nt-tab-product .nav-item .nav-link:hover {
+        font-weight: 600;
+        color: #4a6d81;
+        font-size: 1.2em;
+    }
+    .group-product-item {
+        margin-top: 15px;
+    }
+    .nt-acc, .login-home {
+        font-size: 1.1rem;
+    }
+}
+@media screen and (max-width: 500px) {
+    .nt-tab-product .nav-item .nav-link{
+        font-size: 1rem;
+    }
+    .nt-tab-product .nav-item .active, .nt-tab-product .nav-item .nav-link:hover {
+        font-weight: 600;
+        color: #4a6d81;
+        font-size: 1.1rem;
+    }
+    .nt-acc, .login-home {
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 470px) {
+    .is_mobile .register {
+        font-size: 10px;
+    }
+    .nt-link-box{
+        font-size: 10px;
+    }
+    .nt-link-box .nav-item a {
+        padding: 0;
+    }
+}
+@media screen and (max-width: 425px) {
+    .is_mobile .register {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .nt-acc, .login-home {
+        font-size: 0.9rem;
+    }
+}

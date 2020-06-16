@@ -133,10 +133,6 @@ table tr td {vertical-align: middle}
 .container-fluid{
     position: relative;
 }
-.owl-slider .item img{
-    height: 450px;
-}
-
 .owl-theme .custom-nav{
     position: absolute;
     top: 35%;
@@ -152,7 +148,7 @@ table tr td {vertical-align: middle}
     right: 0;
 }
 
-.owl-theme .custom-nav .owl-prev, .owl-theme .custom-nav .owl-next,{
+.owl-theme .custom-nav .owl-prev, .owl-theme .custom-nav .owl-next{
     height: 100px;
 }
 

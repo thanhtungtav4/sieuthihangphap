@@ -1561,6 +1561,9 @@ line-height: 40px;
     background-color: #71372b;
     border-color: #71372b;
 }
+.nt-bar{
+    background: #a5c0d1;
+}
 .btn-cart{
   z-index: 10;
   position: fixed;
