@@ -1562,7 +1562,23 @@ line-height: 40px;
     border-color: #71372b;
 }
 .nt-bar{
-    background: #a5c0d1;
+    background: #a5c0d1 !important;
+    border: 1px solid #4a6d81;
+    color: #4a6d81;
+    font-size: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 8px;
+    padding-left: 8px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5px;;
+}
+.is_mobile .btn-group{
+    margin-left: 5px;
+}
+.is_mobile .dropdown-toggle::after{
+    display:none;
 }
 .btn-cart{
   z-index: 10;

@@ -135,6 +135,9 @@
 .banner-top-section .owl-nav button:focus {
     outline: none;
 }
+.banner-top-section .owl-dots{
+    display: none !important;
+}
 @media screen and (max-width: 700px) {
     .nt-tab-product .nav-item .nav-link{
         font-size: 1.1rem;

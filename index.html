@@ -235,72 +235,14 @@
    </div>
    <div class="bg-primary-nt">
       <div class="container">
-<!--         <nav class="navbar navbar-expand-lg navbar-light ">-->
-<!--         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">-->
-<!--            <span class="navbar-toggler-icon"></span>-->
-<!--         </button>-->
-<!--         <div class="collapse navbar-collapse" id="navbarSupportedContent" data-hover="dropdown">-->
-<!--            <ul class="navbar-nav mr-auto">-->
-<!--               <li class="nav-item  active ">-->
-<!--                  <a class="nav-link" href="https://sieuthihangphap.vn">Trang chủ <span class="sr-only">(current)</span></a>-->
-<!--               </li>-->
-<!--               <li class="nav-item ">-->
-<!--                  <a class="nav-link" href="gioi-thieu">Giới thiệu</a>-->
-<!--               </li>-->
-<!--               <li class="nav-item dropdown">-->
-<!--                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
-<!--                     Danh sách sản phẩm-->
-<!--                  </a>-->
-<!--                  <ul class="dropdown-menu" role="menu">-->
-<!--                     <li>-->
-<!--                        <a class="dropdown-item" href="danh-muc-san-pham/trang-diem-1">Trang điểm</a>-->
-<!--                     </li>-->
-<!--                     <li>-->
-<!--                        <div class="dropdown-divider"></div>-->
-<!--                        <a class="dropdown-item" href="danh-muc-san-pham/cham-soc-da-7">Chăm sóc da</a>-->
-<!--                     </li>-->
-<!--                     <li>-->
-<!--                        <div class="dropdown-divider"></div>-->
-<!--                        <a class="dropdown-item" href="danh-muc-san-pham/nuoc-hoa-16">Nước hoa</a>-->
-<!--                     </li>-->
-<!--                     <li>-->
-<!--                        <div class="dropdown-divider"></div>-->
-<!--                        <a class="dropdown-item" href="danh-muc-san-pham/cham-soc-co-the-21">Chăm sóc cơ thể</a>-->
-<!--                     </li>-->
-<!--                     <li>-->
-<!--                        <div class="dropdown-divider"></div>-->
-<!--                        <a class="dropdown-item" href="danh-muc-san-pham/thuc-pham-chuc-nang-24">Thực phẩm chức năng</a>-->
-<!--                     </li>-->
-<!--                     <li>-->
-<!--                        <div class="dropdown-divider"></div>-->
-<!--                        <a class="dropdown-item" href="danh-muc-san-pham/cham-soc-toc-25">Chăm sóc tóc</a>-->
-<!--                     </li>-->
-<!--                     <li>-->
-<!--                        <div class="dropdown-divider"></div>-->
-<!--                        <a class="dropdown-item" href="danh-muc-san-pham/goc-cho-be-26">Góc cho bé</a>-->
-<!--                     </li>-->
-<!--                  </ul>-->
-<!--               </li>-->
-<!--               <li class="nav-item ">-->
-<!--                  <a class="nav-link" href="khuyen-mai">Khuyễn mãi</a>-->
-<!--               </li>-->
-<!--               <li class="nav-item ">-->
-<!--                  <a class="nav-link" href="bi-quyet-lam-dep">Bí quyết làm đẹp</a>-->
-<!--               </li>-->
-<!--               <li class="nav-item ">-->
-<!--                  <a class="nav-link" href="lien-he">Liên hệ</a>-->
-<!--               </li>-->
-<!--            </ul>-->
-<!--         </div>-->
-<!--      </nav>-->
          <div class="row">
-            <div class="btn-group col nt-bar">
-               <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <i class="fa fa-bars" aria-hidden="true"></i>
+            <div class="btn-group">
+               <button type="button" class="btn dropdown-toggle nt-bar" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="fa fa-bars fa-3" aria-hidden="true"></i>
                </button>
                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Trang chủ</a>
+                  <a class="dropdown-item" href="#">Giới Thiệu</a>
                   <a class="dropdown-item" href="#">Something else here</a>
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item" href="#">Separated link</a>
@@ -314,8 +256,8 @@
                   </button>
                </div>
             </div>
-            <span> <i class="fa fa-map-marker fa-3 pr-2 pl-1 pt-1 col" aria-hidden="true"></i></span>
-            <span> <i class="fa fa-phone fa-3 pr-2 pt-1 col" aria-hidden="true"></i></span>
+            <span> <i class="fa fa-map-marker fa-3 pr-3 pl-1 pt-1 col" aria-hidden="true"></i></span>
+            <span> <i class="fa fa-phone fa-3 pr-3 pt-1 col" aria-hidden="true"></i></span>
          </div>
       </div>
    </div>
@@ -1610,20 +1552,12 @@
       autoplay: true,
       lazyLoad: true,
       loop: true,
-      margin: 20,
+      autoplayHoverPause: true,
+      items: 1,
       dots:false,
       responsiveClass: true,
       autoHeight: true,
-      autoplayTimeout: 7000,
-      smartSpeed: 800,
       nav: true,
-      responsive: {
-         0: {
-            items: 1
-         },
-
-
-      }
    });
 
 
