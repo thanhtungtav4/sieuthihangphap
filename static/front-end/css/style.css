@@ -468,10 +468,10 @@ label.star:before {
 }
 
 .item-heart{
-	position: absolute;
-    z-index: 1;
-    top: 3%;
-    right: 10%;
+    position: absolute;
+    top: 0;
+    right: 33px;
+    z-index: 999999;
 }
 
 .item-heart img{ width: 25px !important }
@@ -1517,10 +1517,10 @@ line-height: 40px;
     right: 20px;
     display:none;
 }
-.btn-up{
-  border: 1px solid #974a37;
+.btn-up {
+    border: 1px solid #4a6d81;
     background: #fff;
-    color: #822e22;
+    color: #4a6d81;
 }
 
 .btn-up:hover{
