@@ -168,7 +168,38 @@
 .nt-link-box li:not(:first-child):after {
     content:' |';
 }
+.p-link-box li {
+    position: relative;
+}
+.nt-link-box li:not(:first-child):after {
+    content: '';
+}
+.p-link-box li:not(:first-child)::before {
+    content: ' |';
+    position: absolute;
+    top: 15%;
+    color: #a5c0d1;
+}
+.p-fix-image img {
+    width: auto;
+    height: 81px;
+}
+.login-home {
+    font-size: 1.8rem;
+}
+.color-red {
+    color: #ff0000
+}
+.footer-info h3 {
+    padding: 30px 0 10px 0;
+}
+.nt-hight-input::placeholder {
+    color: #4a6d81;
 
+}
+.mobile-login-cart{
+    padding-right: 25px;
+}
 @media screen and (max-width: 700px) {
     .nt-tab-product .nav-item .nav-link{
         font-size: 1.1rem;
@@ -207,6 +238,9 @@
     }
     .nt-nav-link {
         font-size: 12px;
+    }
+    .login-home {
+        font-size: 1rem;
     }
 }
 @media screen and (max-width: 480px) {

@@ -53,7 +53,6 @@
    <link href="static/front-end/css/style.css" rel="stylesheet" />
    <link href="static/front-end/css/nt_style.css" rel="stylesheet" />
    <link href="static/front-end/css/custom.css?v=1591519634" rel="stylesheet" />
-   <link href="static/front-end/css/p_style.css?v=1591519634" rel="stylesheet" />
    <link href="static/front-end/css/swapimagesonhover.min.css" rel="stylesheet" type="text/css"/>
 
    <!--[if IE 7]>
@@ -198,7 +197,7 @@
          <div class="hight-menu"></div>
       </div>
    </div>
-   <div class="container pd-15">
+   <div class="container pd-15 ">
       <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
       <div class="row d-flex align-items-center">
          <div class="col-6 col-sm-6  text-left">
@@ -206,7 +205,7 @@
                <img src="static/front-end/images/logo.png" class="img-fluid" />
             </a>
          </div>
-         <div class="col-6 col-sm-6  text-sm-right text-right">
+         <div class="col-6 col-sm-6  text-sm-right text-right mobile-login-cart">
             <div class="register">
                 <span>
                    <a href="https://sieuthihangphap.vn/dang-ky">Đăng ký</a>
@@ -251,7 +250,7 @@
                </div>
             </div>
             <div class="input-group col">
-               <input type="text" class="form-control nt-hight-input" placeholder="">
+               <input type="text" class="form-control nt-hight-input" placeholder="Nhập tên sản phẩm cần tìm">
                <div class="input-group-append">
                   <button class="btn btn-secondary nt-hight-input pt-1 nt-seach-btn" type="button">
                      <i class="fa fa-search"></i>
@@ -1414,7 +1413,7 @@
                   <h3>THÔNG TIN LIÊN HỆ</h3>
                   <ul class="footer-contact">
                      <li><img src="static/front-end/images/icon-address.png" /> 364 Huỳnh Tấn Phát, P. Bình Thuận, Quận 7, TP. HCM</li>
-                     <li><img src="static/front-end/images/icon-phone.png" /> <span class="color-red">0903861503</span> | <img src="static/front-end/images/icon-zing.png" /> <span class="color-red">0903861503</span></li>
+                     <li><img src="static/front-end/images/icon-phone.png" /> <span class="color-red">0903861503</span> - <span class="color-red">0903861503</span></li>
                      <li>
                         <a href="https://www.facebook.com/van.do.7923"><img class="footer-social" src="static/front-end/images/icon-facebook.png" /></a>
                         <a href="javascript:void(0)">
@@ -1441,7 +1440,7 @@
                   <h3>THÔNG TIN LIÊN HỆ</h3>
                   <ul class="footer-contact">
                      <li><img src="static/front-end/images/icon-address.png" /> 364 Huỳnh Tấn Phát, P. Bình Thuận, Quận 7, TP. HCM</li>
-                     <li><img src="static/front-end/images/icon-phone.png" /> 0903861503 | <img src="static/front-end/images/icon-zing.png" /> 0903861503</li>
+                     <li><img src="static/front-end/images/icon-phone.png" /><span class="color-red"> 0903861503 </span> - <span class="color-red"> 0903861503 </span></li>
                      <li>
                         <a href="https://www.facebook.com/van.do.7923"><img class="footer-social" src="static/front-end/images/icon-facebook.png" /></a>
                         <a href="javascript:void(0)">
@@ -1563,19 +1562,16 @@
       });
    });
 
-
    jQuery("#carousel").owlCarousel({
       autoplay: true,
       lazyLoad: true,
       loop: true,
-      autoplayHoverPause: true,
       items: 1,
       dots:false,
       responsiveClass: true,
       autoHeight: true,
       nav: true,
    });
-
 
 </script>
 </body>
