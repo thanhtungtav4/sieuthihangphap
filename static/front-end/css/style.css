@@ -682,9 +682,15 @@ label.star:before {
 
 /*// detail products*/
 
-.breadcrumb a{ color: #000 }
+.breadcrumb a{
+    color: #a5c0d1;
+    font-size: 1.3rem;
+}
 
-.breadcrumb .active {color: #af6222}
+.breadcrumb .active {
+    color: #4a6d81;
+    font-size: 1.5rem;
+    font-weight: bold;}
 
 .breadcrumb{
     font-size: 14px;

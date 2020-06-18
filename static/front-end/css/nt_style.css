@@ -226,6 +226,17 @@
     font-weight: 600;
     color: #4a6d81;
 }
+@media screen and (max-width: 1000px) {
+    .breadcrumb a {
+        font-size: 1rem;
+    }
+    .breadcrumb .active {
+        font-size: 1.2rem;
+    }
+    .nav-tabs {
+        font-size: 11px;
+    }
+}
 @media screen and (max-width: 700px) {
     .nt-tab-product .nav-item .nav-link{
         font-size: 1.1rem;
