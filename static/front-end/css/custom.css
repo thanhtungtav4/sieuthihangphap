@@ -19,7 +19,7 @@
     word-break: break-word;
 }
 .wishlist-table td {vertical-align: middle}
-.wishlist-content .product-home-title a {color: #a24531}
+.wishlist-content .product-home-title a {color: #4a6d81}
 .group-product-item .item-name a {color: inherit}
 table tr td {vertical-align: middle}
 .groupQty .btn-primary {
@@ -37,7 +37,7 @@ table tr td {vertical-align: middle}
     font-weight: 600;
     color:#4a6d81 ;
 }
-.item-best-seller {background-color: #e84c3d}
+.item-best-seller {background-color:#212529}
 .item-discount{padding: 13px 8px}
 .category-name a {font-weight: 700}
 .custom-control-label::before {
