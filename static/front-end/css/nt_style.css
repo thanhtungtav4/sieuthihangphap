@@ -233,6 +233,10 @@
 .item-add-cart {
     padding: 3px 0px;
 }
+.nt-width-30-img{
+    width:30px;
+    height: 30px;
+}
 .breadcrumb a , .breadcrumb .active {
     font-size: 0.8rem;
 }

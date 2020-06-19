@@ -1636,8 +1636,16 @@ line-height: 40px;
     width:110px;
 }
 .nt-btn-cart{
-    padding: 3.3px !important;
+    padding: 5px !important;
     margin-bottom: 6px;
+}
+.nt-btn-f-share{
+    background: 0;
+    padding: 0;
+    width: 100px;
+}
+.dropdown-menu .dropdown-item{
+    color: #4a6d81;
 }
 #pdQuantity{
     color: red;
