@@ -355,19 +355,16 @@
                             <div class="price-product">379,000VNĐ</div>
 
                             <div class="actionCart">
-                                <div class="groupQty">
-                                    <div class="input-group bootstrap-touchspin bootstrap-touchspin-injected"><span class="input-group-btn input-group-prepend"><button class="btn btn-primary bootstrap-touchspin-down" type="button">-</button></span><input id="pdQuantity" type="text" value="1" name="qty" class="form-control"><span class="input-group-btn input-group-append"><button class="btn btn-primary bootstrap-touchspin-up" type="button">+</button></span></div>
-                                </div>
-                                <div class="listAction row">
+                                <div class="listAction row d-flex align-items-center">
+                                    <div class="col-4">
+                                        <div class="groupQty">
+                                            <div class="input-group bootstrap-touchspin bootstrap-touchspin-injected"><span class="input-group-btn input-group-prepend"><button class="btn btn-primary bootstrap-touchspin-down" type="button">-</button></span><input id="pdQuantity" type="text" value="1" name="qty" class="form-control"><span class="input-group-btn input-group-append"><button class="btn btn-primary bootstrap-touchspin-up" type="button">+</button></span></div>
+                                        </div>
+
+                                    </div>
                                     <div class="col-6">
                                         <button onclick="cart.addToCartNow('112', $('#pdQuantity').val())" type="button" class="button btn-outline buy-now ">
                                             <span>Mua ngay</span>
-                                        </button>
-                                    </div>
-                                    <div class="col-6">
-                                        <button onclick="cart.addToCart('112', $('#pdQuantity').val())" type="button" class="button btn-outline btn-addCart">
-                                            <span>Thêm vào giỏ</span>
-                                            <small></small>
                                         </button>
                                     </div>
                                 </div>
