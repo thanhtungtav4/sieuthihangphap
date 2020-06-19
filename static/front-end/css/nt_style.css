@@ -226,6 +226,25 @@
     font-weight: 600;
     color: #4a6d81;
 }
+.item-money-price {
+    font-size: 11px;
+}
+.item-add-cart {
+    padding: 3px 0px;
+}
+.breadcrumb a , .breadcrumb .active {
+    font-size: 0.8rem;
+}
+.item-price .product-cart-btn .col-sm{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block;
+    padding-right: .5rem;
+    color: #6c757d;
+    content: "|";
+}
 @media screen and (max-width: 1000px) {
     .breadcrumb a {
         font-size: 1rem;

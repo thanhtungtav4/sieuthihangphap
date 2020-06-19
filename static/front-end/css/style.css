@@ -707,17 +707,18 @@ label.star:before {
 .img-product img{width: 100%}
 
 .name-product{font-size: 22px;line-height: 28px; font-weight: 600}
-.cate-product, .cate-product a{font-size: 13px; color: #818181;  margin-bottom: 20px; font-weight: 500}
-.cate-product a:hover{color: #71372b}
+.cate-product, .cate-product a{font-size: 13px; color: #a5c0d1;  margin-bottom: 20px; font-weight: 500}
+.cate-product a:hover{color: #4a6d81}
 .text-product{font-size: 14px; font-weight: 400; margin-bottom: 15px}
-.price-product{font-size: 23px; color: #974a37; font-weight: 600; margin: 15px 0;}
+.price-product{font-size: 23px; color: #4a6d81; font-weight: 600; margin: 15px 0;}
 .price-product-old{
-    color: #818181;
+    color: #a5c0d1;
     text-decoration: line-through;
     font-weight: 500;
 }
-
-
+.name-product {
+    color: #4a6d81;
+}
 .info-product input{border-right: none;}
 .info-product .btn { border-radius: 0}
 .btn-shopping{font-weight: 600; text-transform: uppercase;}
@@ -1137,9 +1138,9 @@ label.star:before {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: bold;
-    background: #71372b;
+    background: #4a6d81;
     border: 1px solid;
-    border-color:#71372b;
+    border-color:#4a6d81;
     color: #fff;
     outline: none;
     width: 100%;
@@ -1151,8 +1152,8 @@ label.star:before {
 }
 
 .actionCart .btn-addCart:hover {
-    background: #71372b;
-    border-color: #71372b;
+    background: #4a6d81;
+    border-color: #4a6d81;
 }
 
 .transition-02 {
