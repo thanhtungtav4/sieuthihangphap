@@ -238,17 +238,37 @@
     <div class="bg-primary-nt">
         <div class="container">
             <div class="row">
-                <div class="btn-group">
-                    <button type="button" class="btn dropdown-toggle nt-bar" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <i class="fa fa-bars fa-3" aria-hidden="true"></i>
-                    </button>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Trang chủ</a>
-                        <a class="dropdown-item" href="#">Giới Thiệu</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Separated link</a>
-                    </div>
+<!--                <div class="btn-group">-->
+<!--                    <button type="button" class="btn dropdown-toggle nt-bar" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+<!--                        <i class="fa fa-bars fa-3" aria-hidden="true"></i>-->
+<!--                    </button>-->
+<!--                    <div class="dropdown-menu">-->
+<!--                        <a class="dropdown-item" href="#">Trang chủ</a>-->
+<!--                        <a class="dropdown-item" href="#">Giới Thiệu</a>-->
+<!--                        <a class="dropdown-item" href="#">Something else here</a>-->
+<!--                        <div class="dropdown-divider"></div>-->
+<!--                        <a class="dropdown-item" href="#">Separated link</a>-->
+<!--                    </div>-->
+<!--                </div>-->
+                <div id="sideNavigation" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">About</a>
+                    <a href="#">Features</a>
+                    <a href="#">Contact Us</a>
+                </div>
+
+                <nav class="topnav">
+                    <a href="#" onclick="openNav()">
+                        <svg width="30" height="30" id="icoOpen">
+                            <path d="M0,5 30,5" stroke="#000" stroke-width="5"/>
+                            <path d="M0,14 30,14" stroke="#000" stroke-width="5"/>
+                            <path d="M0,23 30,23" stroke="#000" stroke-width="5"/>
+                        </svg>
+                    </a>
+                </nav>
+
+                <div id="main">
+                    <!-- Add all your websites page content here  -->
                 </div>
 
                 <div class="input-group col">
@@ -428,12 +448,46 @@
 
                         </div>
                         <div class="tab-pane fade active show" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                            <ul class="product-comment" id="product-comment">
-                                <li class="mb-3">Hãy trở thành người đầu tiên cảm nhận sản phẩm!</li>
-                            </ul>
-
-
-
+                            <div class="row">
+                                <ul>
+                                    <li class="media pt-2">
+                                        <a href="#" class="pull-left">
+                                            <img src="https://bootdey.com/img/Content/user_1.jpg" alt="" class="nt-img-cmn img-circle img-fluid"> </a>
+                                            <div class="media-body nt-media-body"> <span class="text-muted pull-right">
+                                            <small class="text-muted"><div class="stars ">
+                                                                                                                                    <input class="star star-5" type="radio" checked="">
+                                                                    <label class="star star-5"></label>
+                                                                                                                                    <input class="star star-4" type="radio">
+                                                                    <label class="star star-4"></label>
+                                                                                                                                    <input class="star star-3" type="radio">
+                                                                    <label class="star star-3"></label>
+                                                                                                                                    <input class="star star-2" type="radio">
+                                                                    <label class="star star-2"></label>
+                                                                                                                                    <input class="star star-1" type="radio">
+                                                                    <label class="star star-1"></label>
+                                                                                                                            </div></small> </span>
+                                            <strong class="text-success-cmn">Chị Hoàng Anh</strong><span class="pl-2"> - 07 / jun / 2020</span>
+                                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, #consecteturadipiscing ..</p></div></li>
+                                    <li class="media pt-2">
+                                        <a href="#" class="pull-left">
+                                            <img src="https://bootdey.com/img/Content/user_1.jpg" alt="" class="nt-img-cmn img-circle img-fluid"> </a>
+                                        <div class="media-body nt-media-body"> <span class="text-muted pull-right">
+                                            <small class="text-muted"><div class="stars ">
+                                                                                                                                    <input class="star star-5" type="radio" checked="">
+                                                                    <label class="star star-5"></label>
+                                                                                                                                    <input class="star star-4" type="radio">
+                                                                    <label class="star star-4"></label>
+                                                                                                                                    <input class="star star-3" type="radio">
+                                                                    <label class="star star-3"></label>
+                                                                                                                                    <input class="star star-2" type="radio">
+                                                                    <label class="star star-2"></label>
+                                                                                                                                    <input class="star star-1" type="radio">
+                                                                    <label class="star star-1"></label>
+                                                                                                                            </div></small> </span>
+                                            <strong class="text-success-cmn">Chị Hoàng Anh</strong><span class="pl-2"> - 07 / jun / 2020</span>
+                                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, #consecteturadipiscing ..</p></div></li>
+                                </ul>
+                            </div>
                             <div class="comment">
                                 <form id="form-comment">
                                     <input type="hidden" name="_token" value="g6Sn4iiaKk3SiI4drAyIi8Lw7OPZD2aNIrgzj00I">
@@ -670,6 +724,74 @@
                 </div>
             </div>
             <!--silider -->
+            <!-- news -->
+            <div class="news d-md-none is_mobile">
+                <div class="group">
+                    <h3 class="group-title">Bí quyết làm đẹp</h3>
+                    <img src="https://sieuthihangphap.vn/static/front-end/images/line.png">
+                </div>
+
+                <div class="row">
+                    <div class="col-6 col-md-3">
+                        <div class="news-thumb">
+                            <a href="#"><img src="https://www.elle.vn/wp-content/uploads/2020/06/16/404537/OYS_Skincare-02-AHC-445x250.png" alt=""></a>
+                        </div>
+                        <div class="news-title"><a href="#">KHƠI MỞ VẺ ĐẸP LÀN DA TRONG 21 NGÀY VỚI AHC</a></div>
+                        <div class="news-time">22-12-2020</div>
+                        <div class=""><span><i class="fa fa-folder-open" aria-hidden="true"></i> Tin tức</span> <span class="pl-2"><i class="fa fa-users" aria-hidden="true"></i> User</span>  </div>
+                        <div class="news-discription">Nghiêm túc thực hiện quy trình dưỡng da và tập luyện thể chất không chỉ đem lại cho bạn một làn...</div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="news-thumb">
+                            <a href="#"><img src="https://www.elle.vn/wp-content/uploads/2020/06/16/404537/OYS_Skincare-02-AHC-445x250.png" alt=""></a>
+                        </div>
+                        <div class="news-title"><a href="#">KHƠI MỞ VẺ ĐẸP LÀN DA TRONG 21 NGÀY VỚI AHC</a></div>
+                        <div class="news-time">22-12-2020</div>
+                        <div class=""><span><i class="fa fa-folder-open" aria-hidden="true"></i> Tin tức</span> <span class="pl-2"><i class="fa fa-users" aria-hidden="true"></i> User</span>  </div>
+                        <div class="news-discription">Nghiêm túc thực hiện quy trình dưỡng da và tập luyện thể chất không chỉ đem lại cho bạn một làn...</div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="news-thumb">
+                            <a href="#"><img src="https://www.elle.vn/wp-content/uploads/2020/06/16/404537/OYS_Skincare-02-AHC-445x250.png" alt=""></a>
+                        </div>
+                        <div class="news-title"><a href="#">KHƠI MỞ VẺ ĐẸP LÀN DA TRONG 21 NGÀY VỚI AHC</a></div>
+                        <div class="news-time">22-12-2020</div>
+                        <div class=""><span><i class="fa fa-folder-open" aria-hidden="true"></i> Tin tức</span> <span class="pl-2"><i class="fa fa-users" aria-hidden="true"></i> User</span>  </div>
+                        <div class="news-discription">Nghiêm túc thực hiện quy trình dưỡng da và tập luyện thể chất không chỉ đem lại cho bạn một làn...</div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="news-thumb">
+                            <a href="#"><img src="https://www.elle.vn/wp-content/uploads/2020/06/16/404537/OYS_Skincare-02-AHC-445x250.png" alt=""></a>
+                        </div>
+                        <div class="news-title"><a href="#">KHƠI MỞ VẺ ĐẸP LÀN DA TRONG 21 NGÀY VỚI AHC</a></div>
+                        <div class="news-time">22-12-2020</div>
+                        <div class=""><span><i class="fa fa-folder-open" aria-hidden="true"></i> Tin tức</span> <span class="pl-2"><i class="fa fa-users" aria-hidden="true"></i> User</span>  </div>
+                        <div class="news-discription">Nghiêm túc thực hiện quy trình dưỡng da và tập luyện thể chất không chỉ đem lại cho bạn một làn...</div>
+                    </div>
+                </div>
+
+                <a href="https://sieuthihangphap.vn/bi-quyet-lam-dep"><div class="view-more">Xem thêm</div></a>
+            </div>
+            <!--  !news -->
+            <!-- section banner phụ -->
+            <section class="container d-md-none is_mobile">
+                <div class="row">
+                    <div class="col">
+                        <img src="static/front-end/images/slide-header.png" class="img-fluid" />
+                    </div>
+                </div>
+                <div class="row p-3 ">
+                    <div class="col text-center ">
+                        <img src="static/front-end/images/line.png"  class="img-fluid nt-with-padding">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <img src="static/front-end/images/slide-header.png" class="img-fluid" />
+                    </div>
+                </div>
+            </section>
+            <!-- section banner phụ -->
         </section>
         <!-- acc-->
         <section class="container">
@@ -848,7 +970,7 @@
         slidesToShow: 3,
         slidesToScroll: 1,
         asNavFor: '.slider-for',
-        dots: true,
+        dots: false,
         focusOnSelect: true
     });
 
@@ -857,6 +979,17 @@
         var slideno = $(this).data('slide');
         $('.slider-nav').slick('slickGoTo', slideno - 1);
     });
+</script>
+<script>
+    function openNav() {
+        document.getElementById("sideNavigation").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("sideNavigation").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+    }
 </script>
 </body>
 </html>
