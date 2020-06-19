@@ -1632,6 +1632,39 @@ line-height: 40px;
 .action a:hover{
     background:#000;
 }
+.width-100-nt{
+    width:110px;
+}
+.nt-btn-cart{
+    padding: 3.3px !important;
+    margin-bottom: 6px;
+}
+#pdQuantity{
+    color: red;
+    font-weight: 700;
+    font-size: 20px;
+    background: white;
+    border: 1px solid #4a6d81;
+}
+.width-100-nt .groupQty .bootstrap-touchspin-injected .btn{
+    padding: 0 .75rem;
+}
+.groupQty .btn-primary {
+    background-color: #fff!important;
+    color: #4a6d81 !important;
+    font-size: 21px;
+    font-weight: bold;
+    border: 1px solid #4a6d81;
+}
+.item-money-price{
+    font-size: inherit;
+    color: #4a6d81;
+    font-weight: bold;
+}
+.group-info-item .item-name a{
+    color: #4a6d81;
+    font-weight: bold;
+}
 /*//slick*/
 
 @media screen and (max-width: 768px) {

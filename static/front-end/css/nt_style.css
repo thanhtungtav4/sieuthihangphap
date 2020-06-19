@@ -227,7 +227,8 @@
     color: #4a6d81;
 }
 .item-money-price {
-    font-size: 11px;
+    font-size: 13px;
+    padding-left: 10px;
 }
 .item-add-cart {
     padding: 3px 0px;
