@@ -270,6 +270,9 @@
     color: #000;
     text-shadow: 0 0 1px #a5c0d1;
 }
+.cart-home{
+    width:35px;
+}
 .breadcrumb a , .breadcrumb .active {
     font-size: 1rem;
 }
