@@ -98,7 +98,12 @@ button:hover{cursor: pointer;}
 
 
 .dropdown-menu {border-radius: 0; border:none; line-height: 35px;}
-.header-menu .dropdown-divider{border-top: 1px solid #4a6d81; padding: 0; margin:0;}
+.header-menu .dropdown-divider{
+    border-top: 1px solid #4a6d81;
+    padding: 0;
+    margin: 0 auto;
+    width: 80%;
+}
 
 .dropdown-item.active, .dropdown-item:active,.dropdown-menu .dropdown-item:focus, .dropdown-menu .dropdown-item:hover{
     color: #fcfdff;
@@ -470,7 +475,7 @@ label.star:before {
     position: absolute;
     top: 0;
     right: 33px;
-    z-index: 999999;
+    z-index: 99;
 }
 .item-heart img{ width: 25px !important }
 

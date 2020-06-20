@@ -103,7 +103,13 @@ table tr td {vertical-align: middle}
     height: auto !important;
 }
 .nt-hight-input{
-    height: 32px;
+    height: 33px;
+    border: 1px solid #ffffff;
+}
+.nt-seach-btn{
+    border-radius: 0;
+    border: 1px solid #a5c0d1;
+
 }
 .nt-seach-btn{
     padding-left: 20px;

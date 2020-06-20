@@ -192,7 +192,7 @@
     </div>
 </header>
 <!--//is moblie-->
-<header class="header-menu d-block d-md-none is_mobile">
+<header class="header-menu header-menu-mobile d-block d-md-none is_mobile">
     <div class="row">
         <div class="col-12">
             <div class="hight-menu"></div>
@@ -238,39 +238,25 @@
     <div class="bg-primary-nt">
         <div class="container">
             <div class="row">
-<!--                <div class="btn-group">-->
-<!--                    <button type="button" class="btn dropdown-toggle nt-bar" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
-<!--                        <i class="fa fa-bars fa-3" aria-hidden="true"></i>-->
-<!--                    </button>-->
-<!--                    <div class="dropdown-menu">-->
-<!--                        <a class="dropdown-item" href="#">Trang chủ</a>-->
-<!--                        <a class="dropdown-item" href="#">Giới Thiệu</a>-->
-<!--                        <a class="dropdown-item" href="#">Something else here</a>-->
-<!--                        <div class="dropdown-divider"></div>-->
-<!--                        <a class="dropdown-item" href="#">Separated link</a>-->
-<!--                    </div>-->
-<!--                </div>-->
                 <div id="sideNavigation" class="sidenav">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                    <a href="#">About</a>
-                    <a href="#">Features</a>
-                    <a href="#">Contact Us</a>
+                    <ul>
+                        <li><a href="">Trang Chủ</a></li>
+                        <div class="dropdown-divider"></div>
+                        <li><a href="">Giới Thiệu</a></li>
+                        <div class="dropdown-divider"></div>
+                        <li><a href="">Danh mục Sản Phẩm</a></li>
+                        <div class="dropdown-divider"></div>
+                        <li><a href="">Khuyến mãi</a></li>
+                        <div class="dropdown-divider"></div>
+                        <li><a href="">Bí Quyết Làm Đẹp</a></li>
+                    </ul>
                 </div>
-
                 <nav class="topnav">
-                    <a href="#" onclick="openNav()">
-                        <svg width="30" height="30" id="icoOpen">
-                            <path d="M0,5 30,5" stroke="#000" stroke-width="5"/>
-                            <path d="M0,14 30,14" stroke="#000" stroke-width="5"/>
-                            <path d="M0,23 30,23" stroke="#000" stroke-width="5"/>
-                        </svg>
+                    <a href="#" class="nt-bar" onclick="openNav()">
+                        <i class="fa fa-bars fa-3" aria-hidden="true"></i>
                     </a>
                 </nav>
-
-                <div id="main">
-                    <!-- Add all your websites page content here  -->
-                </div>
-
                 <div class="input-group col">
                     <input type="text" class="form-control nt-hight-input" placeholder="Nhập tên sản phẩm cần tìm">
                     <div class="input-group-append">
@@ -285,7 +271,7 @@
         </div>
     </div>
 </header>
-<main role="main">
+<main role="main" id="main">
     <h1 style="display: none;">Siêu thị hàng pháp</h1>
     <!-- sider-->
     <div class="container-fluid p-0">
@@ -316,6 +302,9 @@
                 <div class="row">
                     <div class="col-sm-5">
                         <div class="img-product">
+                            <div class="item-heart" onclick="cart.wishlist(this,'3')">
+                                <img class="wl-img" src="static/front-end/images/heart.png">
+                            </div>
                             <div class="main">
                                 <div class="slider slider-for">
                                     <div><img src="https://sieuthihangphap.vn/uploads/Products/VITAFLOR/Vitaflor-Gelee-Royale-Bio.png" class="img-fluid"></div>
@@ -323,6 +312,7 @@
                                     <div><img src="https://sieuthihangphap.vn/uploads/Products/VITAFLOR/Vitaflor-Gelee-Royale-Bio.png" class="img-fluid"></div>
                                     <div><img src="https://sieuthihangphap.vn/uploads/Products/ARKOPHARMA/106-600x600.png" class="img-fluid"></div>
                                     <div><img src="https://sieuthihangphap.vn/uploads/Products/VITAFLOR/Vitaflor-Gelee-Royale-Bio.png" class="img-fluid"></div>
+
                                 </div>
                                 <div class="slider slider-nav">
                                     <div class="slider_box"><img src="https://sieuthihangphap.vn/uploads/Products/VITAFLOR/Vitaflor-Gelee-Royale-Bio.png" class="img-fluid"></div>
@@ -967,7 +957,7 @@
         asNavFor: '.slider-nav'
     });
     $('.slider-nav').slick({
-        slidesToShow: 3,
+        slidesToShow: 4,
         slidesToScroll: 1,
         asNavFor: '.slider-for',
         dots: false,
