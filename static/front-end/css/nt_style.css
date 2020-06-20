@@ -404,7 +404,28 @@ body {
     font-size: 12px;
     font-weight: 600;
 }
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+/*////*/
+.collapse_nt .btn:after {
+    content: "\f105";
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    font-size: 30px;
+    float: right;
+    margin-left: 15px;
+}
+/* Icon when the collapsible content is hidden */
+.collapse_nt .btn.collapsed:after {
+    content: "\f105";
+}
+.collapse_nt .btn-info {
+    color: #4a6d81;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #a5c0d1;
+    border-color: #a5c0d1;
+    margin-bottom: 7px;
+}
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
 }
@@ -497,6 +518,10 @@ a{
     .nt-tab-product .nav-item .nav-link{
         font-size: 1rem;
     }
+    .d-flex .item-stars:not(:first-child)::before {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
     .nt-tab-product .nav-item .active, .nt-tab-product .nav-item .nav-link:hover {
         font-weight: 600;
         color: #4a6d81;
@@ -542,10 +567,24 @@ a{
         padding:10px;
     }
 
+
+}
+@media screen and (max-width: 400px) {
+  .item-stars  label.star:before {
+        content: '\f006';
+        font-family: FontAwesome;
+        font-size: 12px;
+    }
 }
 @media screen and (max-width: 375px) {
     .nt-acc, .login-home {
         font-size: 0.9rem;
+    }
+}
+@media screen and (max-width: 354px) {
+    .d-flex .item-stars:not(:first-child)::before {
+        padding-left: 1px;
+        padding-right: 1px;
     }
 }
 @media screen and (max-width: 350px) {

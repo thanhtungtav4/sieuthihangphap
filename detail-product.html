@@ -268,7 +268,7 @@
         </div>
     </div>
 </header>
-<main role="main" id="main">
+<main role="main">
     <h1 style="display: none;">Siêu thị hàng pháp</h1>
     <!-- sider-->
     <div class="container-fluid p-0">
@@ -297,7 +297,7 @@
         </nav>
         <div class="product-detail">
             <div class="row">
-                <div class="col-sm-5">
+                <div class="col-sm-5 ">
                     <div class="img-product">
                         <div class="item-heart" onclick="cart.wishlist(this,'3')">
                             <img class="wl-img" src="static/front-end/images/heart.png">
@@ -357,7 +357,7 @@
                     </div>
                 </div>
             </div>
-            <div class="product-infomation">
+            <div class="product-infomation d-none d-lg-block">
                 <ul class="nav nav-tabs" id="myTab" role="tablist">
                     <li class="nav-item">
                         <a class="nav-link" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="false">Thông tin chi tiết</a>
@@ -477,39 +477,39 @@
                                 <div class="pt-2 text-dark mb-1">Đánh giá của bạn</div>
                                 <div class="d-flex">
                                     <div class="stars item-stars">
-                                        <input class="star star-5" id="star-5-2" type="radio" name="review_rating" value="5">
+                                        <input class="star star-5" id="star-5-02" type="radio" name="review_rating" value="5">
                                         <label class="star star-5" for="star-5-2"></label>
                                     </div>
                                     <div class="stars item-stars">
-                                        <input class="star star-5" id="star-5-2" type="radio" name="review_rating" value="5">
-                                        <label class="star star-5" for="star-5-2"></label>
-                                        <input class="star star-4" id="star-4-2" type="radio" name="review_rating" value="4">
-                                        <label class="star star-4" for="star-4-2"></label>
-                                    </div>
-                                    <div class="stars item-stars">
-                                        <input class="star star-5" id="star-5-2" type="radio" name="review_rating" value="5">
+                                        <input class="star star-5" id="star-50-2" type="radio" name="review_rating" value="5">
                                         <label class="star star-5" for="star-5-2"></label>
                                         <input class="star star-4" id="star-4-2" type="radio" name="review_rating" value="4">
                                         <label class="star star-4" for="star-4-2"></label>
-                                        <input class="star star-3" id="star-3-2" type="radio" name="review_rating" value="3">
-                                        <label class="star star-3" for="star-3-2"></label>
                                     </div>
                                     <div class="stars item-stars">
-                                        <input class="star star-4" id="star-4-2" type="radio" name="review_rating" value="4">
+                                        <input class="star star-5" id="star-59-2" type="radio" name="review_rating" value="5">
+                                        <label class="star star-5" for="star-5-2"></label>
+                                        <input class="star star-4" id="star-49-2" type="radio" name="review_rating" value="4">
                                         <label class="star star-4" for="star-4-2"></label>
                                         <input class="star star-3" id="star-3-2" type="radio" name="review_rating" value="3">
                                         <label class="star star-3" for="star-3-2"></label>
-                                        <input class="star star-2" id="star-2-2" type="radio" name="review_rating" value="2">
+                                    </div>
+                                    <div class="stars item-stars">
+                                        <input class="star star-4" id="star-4-21" type="radio" name="review_rating" value="4">
+                                        <label class="star star-4" for="star-4-2"></label>
+                                        <input class="star star-3" id="star-3-21" type="radio" name="review_rating" value="3">
+                                        <label class="star star-3" for="star-3-2"></label>
+                                        <input class="star star-2" id="star-2-21" type="radio" name="review_rating" value="2">
                                         <label class="star star-2" for="star-2-2"></label>
-                                        <input class="star star-1" id="star-1-2" type="radio" name="review_rating" value="1">
+                                        <input class="star star-1" id="star-1-21" type="radio" name="review_rating" value="1">
                                         <label class="star star-1" for="star-1-2"></label>
                                     </div>
                                     <div class="stars item-stars">
-                                        <input class="star star-4" id="star-4-2" type="radio" name="review_rating" value="4">
+                                        <input class="star star-4" id="star-42-22" type="radio" name="review_rating" value="4">
                                         <label class="star star-4" for="star-4-2"></label>
-                                        <input class="star star-4" id="star-4-2" type="radio" name="review_rating" value="4">
+                                        <input class="star star-4" id="star-4-222" type="radio" name="review_rating" value="4">
                                         <label class="star star-4" for="star-4-2"></label>
-                                        <input class="star star-3" id="star-3-2" type="radio" name="review_rating" value="3">
+                                        <input class="star star-3" id="star-3-22" type="radio" name="review_rating" value="3">
                                         <label class="star star-3" for="star-3-2"></label>
                                         <input class="star star-2" id="star-2-2" type="radio" name="review_rating" value="2">
                                         <label class="star star-2" for="star-2-2"></label>
@@ -543,8 +543,163 @@
                     </div>
                 </div>
             </div>
+            <div class="product-infomation d-block d-md-block d-lg-none is_mobile collapse_nt">
+                <div class="nt-collapse_nt_box">
+                    <button type="button" class="btn btn-lg btn-info text-left collapsed w-100" data-toggle="collapse" data-target="#demo1">Mô tả Sản Phẩm </button>
+                    <div id="demo1" class="collapse">
+                        Công thức mạnh mẽ kết hợp các thành phần sinh học - chúng tác động lên 10 dấu hiệu trẻ hóa của làn da ...
+                    </div>
+                </div>
+                <div class="nt-collapse_nt_box">
+                    <button type="button" class="btn btn-lg btn-info text-left collapsed w-100" data-toggle="collapse" data-target="#demo2">Hướng Dẫn sử Dụng </button>
+                    <div id="demo2" class="collapse">
+                        Công thức mạnh mẽ kết hợp các thành phần sinh học - chúng tác động lên 10 dấu hiệu trẻ hóa của làn da ...
+                    </div>
+                </div>
+                <div class="nt-collapse_nt_box">
+                    <button type="button" class="btn btn-lg btn-info text-left collapsed w-100" data-toggle="collapse" data-target="#demo3">Hỏi Đáp </button>
+                    <div id="demo3" class="collapse">
+
+                        <div class="row">
+                            <ul>
+                                <li class="media pt-2">
+                                    <a href="#" class="pull-left">
+                                        <img src="https://bootdey.com/img/Content/user_1.jpg" alt="" class="nt-img-cmn img-circle img-fluid"> </a>
+                                    <div class="media-body nt-media-body">
+                                    <span class="text-muted pull-right">
+                                       <small class="text-muted">
+                                          <div class="stars ">
+                                             <input class="star star-5" type="radio" checked="">
+                                             <label class="star star-5"></label>
+                                             <input class="star star-4" type="radio">
+                                             <label class="star star-4"></label>
+                                             <input class="star star-3" type="radio">
+                                             <label class="star star-3"></label>
+                                             <input class="star star-2" type="radio">
+                                             <label class="star star-2"></label>
+                                             <input class="star star-1" type="radio">
+                                             <label class="star star-1"></label>
+                                          </div>
+                                       </small>
+                                    </span>
+                                        <strong class="text-success-cmn">Chị Hoàng Anh</strong><span class="pl-2 nt-color-date"> - 07 / jun / 2020</span>
+                                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, #consecteturadipiscing ..</p>
+                                    </div>
+                                </li>
+                                <li class="media pt-2">
+                                    <a href="#" class="pull-left">
+                                        <img src="https://bootdey.com/img/Content/user_1.jpg" alt="" class="nt-img-cmn img-circle img-fluid"> </a>
+                                    <div class="media-body nt-media-body">
+                                    <span class="text-muted pull-right">
+                                       <small class="text-muted">
+                                          <div class="stars ">
+                                             <input class="star star-5" type="radio" checked="">
+                                             <label class="star star-5"></label>
+                                             <input class="star star-4" type="radio">
+                                             <label class="star star-4"></label>
+                                             <input class="star star-3" type="radio">
+                                             <label class="star star-3"></label>
+                                             <input class="star star-2" type="radio">
+                                             <label class="star star-2"></label>
+                                             <input class="star star-1" type="radio">
+                                             <label class="star star-1"></label>
+                                          </div>
+                                       </small>
+                                    </span>
+                                        <strong class="text-success-cmn">Chị Hoàng Anh</strong><span class="pl-2"> - 07 / jun / 2020</span>
+                                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, #consecteturadipiscing ..</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="comment">
+                            <form id="form-comment">
+                                <input type="hidden" name="_token" value="g6Sn4iiaKk3SiI4drAyIi8Lw7OPZD2aNIrgzj00I">
+                                <div class="pt-2 text-dark mb-1">Đánh giá của bạn</div>
+                                <div class="d-flex">
+                                    <div class="stars item-stars">
+                                        <input class="star star-5" id="star-5-02" type="radio" name="review_rating" value="5">
+                                        <label class="star star-5" for="star-5-2"></label>
+                                    </div>
+                                    <div class="stars item-stars">
+                                        <input class="star star-5" id="star-50-2" type="radio" name="review_rating" value="5">
+                                        <label class="star star-5" for="star-5-2"></label>
+                                        <input class="star star-4" id="star-4-2" type="radio" name="review_rating" value="4">
+                                        <label class="star star-4" for="star-4-2"></label>
+                                    </div>
+                                    <div class="stars item-stars">
+                                        <input class="star star-5" id="star-59-2" type="radio" name="review_rating" value="5">
+                                        <label class="star star-5" for="star-5-2"></label>
+                                        <input class="star star-4" id="star-49-2" type="radio" name="review_rating" value="4">
+                                        <label class="star star-4" for="star-4-2"></label>
+                                        <input class="star star-3" id="star-3-2" type="radio" name="review_rating" value="3">
+                                        <label class="star star-3" for="star-3-2"></label>
+                                    </div>
+                                    <div class="stars item-stars">
+                                        <input class="star star-4" id="star-4-21" type="radio" name="review_rating" value="4">
+                                        <label class="star star-4" for="star-4-2"></label>
+                                        <input class="star star-3" id="star-3-21" type="radio" name="review_rating" value="3">
+                                        <label class="star star-3" for="star-3-2"></label>
+                                        <input class="star star-2" id="star-2-21" type="radio" name="review_rating" value="2">
+                                        <label class="star star-2" for="star-2-2"></label>
+                                        <input class="star star-1" id="star-1-21" type="radio" name="review_rating" value="1">
+                                        <label class="star star-1" for="star-1-2"></label>
+                                    </div>
+                                    <div class="stars item-stars">
+                                        <input class="star star-4" id="star-42-22" type="radio" name="review_rating" value="4">
+                                        <label class="star star-4" for="star-4-2"></label>
+                                        <input class="star star-4" id="star-4-222" type="radio" name="review_rating" value="4">
+                                        <label class="star star-4" for="star-4-2"></label>
+                                        <input class="star star-3" id="star-3-22" type="radio" name="review_rating" value="3">
+                                        <label class="star star-3" for="star-3-2"></label>
+                                        <input class="star star-2" id="star-2-2" type="radio" name="review_rating" value="2">
+                                        <label class="star star-2" for="star-2-2"></label>
+                                        <input class="star star-1" id="star-1-2" type="radio" name="review_rating" value="1">
+                                        <label class="star star-1" for="star-1-2"></label>
+                                    </div>
+                                </div>
+                                <input type="hidden" name="product_id" value="112">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <label for="review_name">Tên  <span class="text-danger">(*)</span></label>
+                                            <input type="text" class="form-control" id="review_name" placeholder="Tên" name="review_name">
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <label for="review_email">Email  <span class="text-danger">(*)</span></label>
+                                            <input type="email" class="form-control" id="review_email" placeholder="email" name="review_email">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="review_content">Nội dung <span class="text-danger">(*)</span></label>
+                                    <textarea id="review_content" class="form-control" rows="3" name="review_content"></textarea>
+                                </div>
+                                <div class="pt-2 text-dark mt-2 mb-4">Thông tin của bạn sẽ được xét duyêt trong thời gian sớm nhất</div>
+                                <button onclick="product.comment()" type="button" class="btn btn-commnet">Gửi</button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="nt-collapse_nt_box">
+                    <button type="button" class="btn btn-lg btn-info text-left collapsed w-100" data-toggle="collapse" data-target="#demo4">Giải pháp </button>
+                    <div id="demo4" class="collapse">
+                        Công thức mạnh mẽ kết hợp các thành phần sinh học - chúng tác động lên 10 dấu hiệu trẻ hóa của làn da ...
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- detail product -->
+        <section class="d-md-none is_mobile">
+            <div class="row">
+                <div class="col">
+                    <img src="static/front-end/images/slide-header.png" class="img-fluid">
+                </div>
+            </div>
+        </section>
         <!-- slider-->
         <div class="product-more">
             <div class="group pb-0">
@@ -744,7 +899,7 @@
         </div>
         <!--  !news -->
         <!-- section banner phụ -->
-        <section class="container d-md-none is_mobile">
+        <section class="d-md-none is_mobile">
             <div class="row">
                 <div class="col">
                     <img src="static/front-end/images/slide-header.png" class="img-fluid" />
@@ -824,8 +979,6 @@
             </div>
         </div>
     </section>
-    </div>
-    </div>
     <!-- footer -->
     <div class="footer-info d-none d-md-block">
         <div class="container">
@@ -949,6 +1102,7 @@
         var slideno = $(this).data('slide');
         $('.slider-nav').slick('slickGoTo', slideno - 1);
     });
+
 </script>
 <script>
     function openNav() {
