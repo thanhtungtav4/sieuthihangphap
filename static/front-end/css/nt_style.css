@@ -271,7 +271,7 @@
     text-shadow: 0 0 1px #a5c0d1;
 }
 .breadcrumb a , .breadcrumb .active {
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 .item-price .product-cart-btn .col-sm{
     padding-right: 5px;
