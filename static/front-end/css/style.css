@@ -1542,7 +1542,9 @@ line-height: 40px;
     background: #fff;
     color: #4a6d81;
 }
-
+#sideNavigation ul li {
+    width: 250px;
+}
 .btn-up:hover{
   background-color: #4a6d81;
   border-color: #fff;  
