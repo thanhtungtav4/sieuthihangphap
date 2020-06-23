@@ -1541,10 +1541,21 @@
             '<i class="fa fa-angle-left" aria-hidden="true"></i>',
             '<i class="fa fa-angle-right" aria-hidden="true"></i>'
          ],
+         checkVisibility: true,
          navContainer: '.container-fluid .custom-nav',
-         items:1,
          margin:0,
          autoplay: true,
+         responsive:{
+            0:{
+               items:1
+            },
+            600:{
+               items:1
+            },
+            1000:{
+               items:1
+            }
+         }
       });
    });
 
@@ -1552,11 +1563,22 @@
       autoplay: true,
       lazyLoad: true,
       loop: true,
-      items: 1,
       dots:false,
+      checkVisibility: true,
       responsiveClass: true,
       autoHeight: true,
       nav: true,
+      responsive:{
+         0:{
+            items:1
+         },
+         600:{
+            items:1
+         },
+         1000:{
+            items:1
+         }
+      }
    });
 
 </script>
