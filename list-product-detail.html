@@ -1643,13 +1643,28 @@
 <script>
     function openNav() {
         document.getElementById("sideNavigation").style.width = "250px";
-        document.getElementById("main").style.marginLeft = "250px";
-    }
+        $( "#sideNavigation" ).addClass( "nt-show-menu" );
 
+    }
     function closeNav() {
         document.getElementById("sideNavigation").style.width = "0";
-        document.getElementById("main").style.marginLeft = "0";
     }
+
+    var specifiedElement = document.getElementById('sideNavigation');
+    document.addEventListener('click', function(event) {
+        var isClickInside = specifiedElement.contains(event.target);
+        var checkWitdh = $( "#sideNavigation" ).width()
+
+        if (isClickInside) {
+
+        }
+        else {
+            if(checkWitdh !=0)
+            {
+                closeNav();
+            }
+        }
+    });
 </script>
 </body>
 </html>
