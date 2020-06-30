@@ -296,26 +296,87 @@
             </ol>
         </nav>
         <div class="product-detail">
-            <div class="row">
+            <div class="d-none d-lg-block">
+                <div class="row">
+                    <div class="col-sm-5 ">
+                        <div class="img-product">
+                            <div class="item-heart" onclick="cart.wishlist(this,'3')">
+                                <img class="wl-img" src="static/front-end/images/heart.png">
+                            </div>
+                            <div class="main">
+                                <div class="slider slider-for">
+                                    <div><img src="https://sieuthihangphap.vn/uploads/Products/VITAFLOR/Vitaflor-Gelee-Royale-Bio.png" class="img-fluid"></div>
+                                    <div><img src="https://sieuthihangphap.vn/uploads/Products/ARKOPHARMA/106-600x600.png" class="img-fluid"></div>
+                                    <div><img src="https://sieuthihangphap.vn/uploads/Products/VITAFLOR/Vitaflor-Gelee-Royale-Bio.png" class="img-fluid"></div>
+                                    <div><img src="https://sieuthihangphap.vn/uploads/Products/ARKOPHARMA/106-600x600.png" class="img-fluid"></div>
+                                    <div><img src="https://sieuthihangphap.vn/uploads/Products/VITAFLOR/Vitaflor-Gelee-Royale-Bio.png" class="img-fluid"></div>
+                                </div>
+                                <div class="slider slider-nav">
+                                    <div class="slider_box"><img src="https://sieuthihangphap.vn/uploads/Products/VITAFLOR/Vitaflor-Gelee-Royale-Bio.png" class="img-fluid"></div>
+                                    <div class="slider_box"><img src="https://sieuthihangphap.vn/uploads/Products/ARKOPHARMA/106-600x600.png" class="img-fluid"></div>
+                                    <div class="slider_box"><img src="https://sieuthihangphap.vn/uploads/Products/VITAFLOR/Vitaflor-Gelee-Royale-Bio.png" class="img-fluid"></div>
+                                    <div class="slider_box"><img src="https://sieuthihangphap.vn/uploads/Products/ARKOPHARMA/106-600x600.png" class="img-fluid"></div>
+                                    <div class="slider_box"><img src="https://sieuthihangphap.vn/uploads/Products/VITAFLOR/Vitaflor-Gelee-Royale-Bio.png" class="img-fluid"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-7">
+                        <div class="info-product">
+                            <h1 class="name-product">Nước Tẩy Trang Làm Giảm Mụn SVR Sebiaclear Eau Micellaire 400ml</h1>
+                            <div class="cate-product"><a href="https://sieuthihangphap.vn/danh-muc-san-pham/tay-trang-33">Tẩy trang</a></div>
+                            <div class="text-product">
+                                <ul>
+                                    <li style="text-align:left">Giúp làm sạch, rửa và tẩy lớp trang điểm chỉ trong 1 bước, thậm chí là lớp trang điểm không thấm nước.</li>
+                                    <li style="text-align:left">Giúp loại trừ cặn bẩn và bã nhờn dư thừa mà không làm khô da.</li>
+                                    <li style="text-align:left">Hỗ trợ kháng viêm và ngăn ngừa mụn</li>
+                                    <li style="text-align:left">Dành cho da hỗn hợp đến da dầu và da mụn nhạy cảm.</li>
+                                    <li style="text-align:left">Có chai 75ml nhỏ gọn, dễ dàng mang theo ra ngoài, du lịch..</li>
+                                </ul>
+                            </div>
+                            <div class="price-product-old">450,000VNĐ</div>
+                            <div class="price-product">379,000VNĐ</div>
+                            <div class="actionCart">
+                                <div class="listAction row d-flex align-items-center w-100">
+                                    <div class="width-100-nt pl-3">
+                                        <div class="groupQty">
+                                            <div class="input-group bootstrap-touchspin bootstrap-touchspin-injected"><span class="input-group-btn input-group-prepend"><button class="btn btn-primary bootstrap-touchspin-down" type="button">-</button></span><input id="pdQuantity" type="text" value="1" name="qty" class="form-control"><span class="input-group-btn input-group-append"><button class="btn btn-primary bootstrap-touchspin-up" type="button">+</button></span></div>
+                                        </div>
+                                    </div>
+                                    <div class="pl-3">
+                                        <button onclick="cart.addToCartNow('112', $('#pdQuantity').val())" type="button" class="button btn-outline buy-now nt-btn-cart">
+                                            <span>ADD TO CART</span><span><img class="pl-2 nt-width-30-img" src="static/front-end/images/icon-cart.png"></span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col col-sm-6">
+                                    <button onclick="cart.btnShareFB()" type="button" class="btn nt-btn-f-share mt-3"><img class="img-fluid" src="static/front-end/images/F-share.png"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- img product -->
+            <div class="  d-block d-md-block d-lg-none is_mobile">
+                 <div class="row">
                 <div class="col-sm-5 ">
                     <div class="img-product">
                         <div class="item-heart" onclick="cart.wishlist(this,'3')">
                             <img class="wl-img" src="static/front-end/images/heart.png">
                         </div>
-                        <div class="main">
-                            <div class="slider slider-for">
-                                <div><img src="https://sieuthihangphap.vn/uploads/Products/VITAFLOR/Vitaflor-Gelee-Royale-Bio.png" class="img-fluid"></div>
-                                <div><img src="https://sieuthihangphap.vn/uploads/Products/ARKOPHARMA/106-600x600.png" class="img-fluid"></div>
-                                <div><img src="https://sieuthihangphap.vn/uploads/Products/VITAFLOR/Vitaflor-Gelee-Royale-Bio.png" class="img-fluid"></div>
-                                <div><img src="https://sieuthihangphap.vn/uploads/Products/ARKOPHARMA/106-600x600.png" class="img-fluid"></div>
-                                <div><img src="https://sieuthihangphap.vn/uploads/Products/VITAFLOR/Vitaflor-Gelee-Royale-Bio.png" class="img-fluid"></div>
-                            </div>
-                            <div class="slider slider-nav">
-                                <div class="slider_box"><img src="https://sieuthihangphap.vn/uploads/Products/VITAFLOR/Vitaflor-Gelee-Royale-Bio.png" class="img-fluid"></div>
-                                <div class="slider_box"><img src="https://sieuthihangphap.vn/uploads/Products/ARKOPHARMA/106-600x600.png" class="img-fluid"></div>
-                                <div class="slider_box"><img src="https://sieuthihangphap.vn/uploads/Products/VITAFLOR/Vitaflor-Gelee-Royale-Bio.png" class="img-fluid"></div>
-                                <div class="slider_box"><img src="https://sieuthihangphap.vn/uploads/Products/ARKOPHARMA/106-600x600.png" class="img-fluid"></div>
-                                <div class="slider_box"><img src="https://sieuthihangphap.vn/uploads/Products/VITAFLOR/Vitaflor-Gelee-Royale-Bio.png" class="img-fluid"></div>
+                        <div class="main" id="product-detail-mobile">
+                            <div class="content-carousel">
+                                <div class="owl-carousel">
+                                    <div> <img src="https://dummyimage.com/600x400/ef3e3e/231f20.png&text=Carousel"> </div>
+                                    <div> <img src="https://dummyimage.com/600x400/16c1f3/231f20.png&text=Carousel"> </div>
+                                    <div> <img src="https://dummyimage.com/600x400/fff200/231f20.png&text=Carousel"> </div>
+                                    <div> <img src="https://dummyimage.com/600x400/f48480/231f20.png&text=Carousel"> </div>
+                                    <div><img src="https://dummyimage.com/600x400/8dd8f8/231f20.png&text=Carousel"> </div>
+                                    <div><img src="https://dummyimage.com/600x400/fffac2/231f20.png&text=Carousel"> </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -357,6 +418,8 @@
                     </div>
                 </div>
             </div>
+            </div>
+            <!-- img product -->
             <div class="product-infomation d-none d-lg-block">
                 <ul class="nav nav-tabs" id="myTab" role="tablist">
                     <li class="nav-item">
@@ -1130,5 +1193,72 @@
         }
     });
 </script>
+<script>
+    $(document).ready(function(){
+
+        $(".owl-carousel").owlCarousel({
+            loop:true,
+            items:1,
+            margin:0,
+            stagePadding: 0,
+            autoplay:false
+        });
+
+        dotcount = 1;
+
+        jQuery('.owl-dot').each(function() {
+            jQuery( this ).addClass( 'dotnumber' + dotcount);
+            jQuery( this ).attr('data-info', dotcount);
+            dotcount=dotcount+1;
+        });
+
+        slidecount = 1;
+
+        jQuery('.owl-item').not('.cloned').each(function() {
+            jQuery( this ).addClass( 'slidenumber' + slidecount);
+            slidecount=slidecount+1;
+        });
+
+        jQuery('.owl-dot').each(function() {
+            grab = jQuery(this).data('info');
+            slidegrab = jQuery('.slidenumber'+ grab +' img').attr('src');
+            jQuery(this).css("background-image", "url("+slidegrab+")");
+        });
+
+        amount = $('.owl-dot').length;
+        gotowidth = 100/amount;
+        jQuery('.owl-dot').css("height", gotowidth+"%");
+
+    });
+</script>
+<style>
+   #product-detail-mobile .content-carousel {
+        width: 300px;
+        display: block;
+        margin: 0 auto;
+    }
+   #product-detail-mobile .owl-carousel {
+        width: calc(100% - 170px);
+    }
+   #product-detail-mobile  .owl-carousel div {
+        width: 100%;
+    }
+   #product-detail-mobile .owl-carousel .owl-controls .owl-dot {
+        background-size: cover;
+        margin-top: 10px;
+    }
+   #product-detail-mobile .owl-carousel .owl-dots {
+        position: absolute;
+        top: 0;
+        right: -170px;
+        width: 100px;
+        height: 100%;
+    }
+   #product-detail-mobile .owl-carousel .owl-dot {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+</style>
 </body>
 </html>
