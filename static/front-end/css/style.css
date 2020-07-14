@@ -99,10 +99,10 @@ button:hover{cursor: pointer;}
 
 .dropdown-menu {border-radius: 0; border:none; line-height: 35px;}
 .header-menu .dropdown-divider{
-    border-top: 1px solid #4a6d81;
+    border-top: 1px solid #b1bcc3;
     padding: 0;
     margin: 0 auto;
-    width: 80%;
+    width: 94%;
 }
 
 .dropdown-item.active, .dropdown-item:active,.dropdown-menu .dropdown-item:focus, .dropdown-menu .dropdown-item:hover{
@@ -1681,7 +1681,27 @@ line-height: 40px;
     font-weight: bold;
 }
 /*//slick*/
-
+.icon-down::after {
+    font-family: "FontAwesome";
+    content: "\f105";
+    display: inline-block;
+    padding-left: 10px;
+    vertical-align: middle;
+    font-weight: 900;
+    font-size: larger;
+}
+.icon-up::after {
+    font-family: "FontAwesome";
+    content: "\f107";
+    display: inline-block;
+    padding-left: 10px;
+    vertical-align: middle;
+    font-weight: 900;
+    font-size: larger;
+}
+#sideNavigation .icon-up::after, #sideNavigation .icon-down::after{
+    display: inline-block;
+}
 @media screen and (max-width: 768px) {
 
   .mr-auto, .mx-auto{padding: 1em 0}
