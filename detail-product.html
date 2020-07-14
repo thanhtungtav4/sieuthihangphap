@@ -246,7 +246,14 @@
                         <div class="dropdown-divider"></div>
                         <li><a href="">Khuyến mãi</a></li>
                         <div class="dropdown-divider"></div>
-                        <li><a href="">Bí Quyết Làm Đẹp</a></li>
+                        <li class="dropdown dropdown-item-mobile">
+                            <a class="btn-dropdown-item-mobile"  href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tin Khuyến mãi </a>
+                            <ul class="dropdown-menu dropdown-menu-child" aria-labelledby="navbarDropdown">
+                                <li><a href="#">Sale tháng 5</a></li>
+                                <li><a href="#">Sale tháng 6</a></li>
+                                <li><a href="#">Sale tháng 7</a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
                 <nav class="topnav">
@@ -1232,6 +1239,7 @@
     });
     // menu up/ down
     $(document).ready(function(){
+        $(".btn-dropdown-item-mobile").addClass('icon-down');
         $("#sideNavigation .dropdown-item-mobile").on("hide.bs.dropdown", function(){
             $(".btn-dropdown-item-mobile").addClass('icon-down');
             $(".btn-dropdown-item-mobile").removeClass('icon-up');
