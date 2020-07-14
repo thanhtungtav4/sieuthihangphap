@@ -458,12 +458,17 @@ body {
     background-color: #a5c0d1;
     border-color: #a5c0d1;
 }
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-}
+.img-slider-item{
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
 
+}
 #ico{
     display: none;
+}
+.slider_box{
+    max-width: 109px !important;
 }
 .dropdown-item-mobile .dropdown-menu-child li a{
     padding-left: 25px;
@@ -564,6 +569,9 @@ body {
     .nt-nav-link {
         font-size: 11px;
     }
+}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
 }
 @media screen and (max-width: 425px) {
     .is_mobile .register {
