@@ -506,6 +506,15 @@ a{
  }
 }
 }
+.dropdown-item-mobile::after {
+    content: '\f002';
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    margin-left:5px;
+    color:red;
+}
 /*menu*/
 @media screen and (max-width: 1000px) {
     .breadcrumb a {
@@ -516,6 +525,9 @@ a{
     }
     .nav-tabs {
         font-size: 11px;
+    }
+    .sidenav a:hover, .offcanvas a:focus, #sideNavigation .topnav a:hover {
+        color: #a5c0d1;
     }
 }
 @media screen and (max-width: 700px) {
