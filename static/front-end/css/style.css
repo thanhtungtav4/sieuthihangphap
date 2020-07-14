@@ -104,7 +104,11 @@ button:hover{cursor: pointer;}
     margin: 0 auto;
     width: 94%;
 }
-
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #4b6e81;
+    border-color: #4b6e81;
+}
 .dropdown-item.active, .dropdown-item:active,.dropdown-menu .dropdown-item:focus, .dropdown-menu .dropdown-item:hover{
     color: #fcfdff;
     text-decoration: none;

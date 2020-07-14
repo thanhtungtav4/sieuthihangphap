@@ -465,6 +465,15 @@ body {
 #ico{
     display: none;
 }
+.dropdown-item-mobile .dropdown-menu-child li a{
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.dropdown-item-mobile .dropdown-menu-child li:hover a{
+    padding-left: 35px;
+    transform: 0.5s;
+}
 @media screen and (max-width: 1000px) {
     .breadcrumb a {
         font-size: 1rem;
@@ -481,6 +490,7 @@ body {
         transition: 0.5s;
         background-color: #cbd5dc;
     }
+
 }
 @media screen and (max-width: 700px) {
     .nt-tab-product .nav-item .nav-link{
