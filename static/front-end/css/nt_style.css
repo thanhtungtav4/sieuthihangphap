@@ -573,11 +573,21 @@ body {
         padding:10px;
     }
 }
+@media screen and (max-width: 410px) {
+    .nt-hight-input::-webkit-input-placeholder{
+        font-size: 10px;
+    }
+}
 @media screen and (max-width: 400px) {
   .item-stars  label.star:before {
         content: '\f006';
         font-family: FontAwesome;
         font-size: 12px;
+    }
+}
+@media screen and (max-width: 385px) {
+    .nt-hight-input::-webkit-input-placeholder{
+        font-size: 8px;
     }
 }
 @media screen and (max-width: 375px) {
