@@ -438,7 +438,7 @@ label.star:before {
 }
 
 
-.item-group-hot{position: absolute;z-index: 99900;top: 0; left: 3%}
+.item-group-hot{position: absolute;z-index: 102;top: 0; left: 3%}
 
 
 .item-new{
@@ -479,7 +479,7 @@ label.star:before {
 }
 .item-heart{
     position: absolute;
-    top: 0;
+    top: 5px;
     right: 33px;
     z-index: 99;
 }

@@ -155,7 +155,7 @@
 .wl-product {
     position: absolute;
     right: 15px;
-    z-index: 9999;
+    z-index: 102;
     top: 0;
 }
 .btn-cart, #back-to-top {
