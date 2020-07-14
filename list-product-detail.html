@@ -1665,6 +1665,17 @@
             }
         }
     });
+    // menu up/ down
+    $(document).ready(function(){
+        $("#sideNavigation .dropdown-item-mobile").on("hide.bs.dropdown", function(){
+            $(".btn-dropdown-item-mobile").addClass('icon-down');
+            $(".btn-dropdown-item-mobile").removeClass('icon-up');
+        });
+        $("#sideNavigation .dropdown-item-mobile").on("show.bs.dropdown", function(){
+            $(".btn-dropdown-item-mobile").addClass('icon-up');
+            $(".btn-dropdown-item-mobile").removeClass('icon-down');
+        });
+    });
 </script>
 </body>
 </html>

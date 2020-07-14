@@ -249,8 +249,8 @@
                   <div class="dropdown-divider"></div>
                   <li><a href="">Khuyến mãi</a></li>
                   <div class="dropdown-divider"></div>
-                  <li class="dropdown">
-                     <a class="dropdown-toggle dropdown-item-mobile"  href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tin Khuyến mãi </a>
+                  <li class="dropdown dropdown-item-mobile">
+                     <a class="dropdown-toggle btn-dropdown-item-mobile"  href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tin Khuyến mãi </a>
                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a href="#">Sale tháng 5</a></li>
                         <li><a href="#">Sale tháng 6</a></li>
@@ -1583,12 +1583,16 @@
          }
       }
    });
+   // menu up/ down
    $(document).ready(function(){
-      $(".dropdown").on("hide.bs.dropdown", function(){
-         $(".btn").html('Dropdown <span class="caret"></span>');
+      $(".btn-dropdown-item-mobile").addClass('icon-down');
+      $("#sideNavigation .dropdown-item-mobile").on("hide.bs.dropdown", function(){
+         $(".btn-dropdown-item-mobile").addClass('icon-down');
+         $(".btn-dropdown-item-mobile").removeClass('icon-up');
       });
-      $(".dropdown").on("show.bs.dropdown", function(){
-         $(".btn").html('Dropdown <span class="caret caret-up"></span>');
+      $("#sideNavigation .dropdown-item-mobile").on("show.bs.dropdown", function(){
+         $(".btn-dropdown-item-mobile").addClass('icon-up');
+         $(".btn-dropdown-item-mobile").removeClass('icon-down');
       });
    });
 </script>
