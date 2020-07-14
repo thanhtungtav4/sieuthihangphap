@@ -483,6 +483,12 @@ label.star:before {
     right: 33px;
     z-index: 99;
 }
+.view-more:hover{
+    background: #21759b;
+}
+.p-link-box .nav-item:hover .nt-nav-link{
+    color: #21759b !important;
+}
 .item-heart img{ width: 25px !important }
 
 .item-heart:hover{
@@ -770,7 +776,9 @@ label.star:before {
     border-radius: 0;
     font-weight: 500
 }
-
+.breadcrumb .active a{
+    color: #4a6d81;
+}
 .product-more{
   margin-bottom: 50px
 }
