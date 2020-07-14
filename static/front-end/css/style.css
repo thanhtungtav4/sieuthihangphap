@@ -94,9 +94,8 @@ button:hover{cursor: pointer;}
 .wrapper{max-width: 1366px; margin: 0 auto;    padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
-    margin-left: auto;}
-
-
+    margin-left: auto;
+}
 .dropdown-menu {border-radius: 0; border:none; line-height: 35px;}
 .header-menu .dropdown-divider{
     border-top: 1px solid #b1bcc3;
@@ -108,6 +107,9 @@ button:hover{cursor: pointer;}
     color: #fff;
     background-color: #4b6e81;
     border-color: #4b6e81;
+}
+.item-price .cart-home:hover{
+
 }
 .dropdown-item.active, .dropdown-item:active,.dropdown-menu .dropdown-item:focus, .dropdown-menu .dropdown-item:hover{
     color: #fcfdff;
@@ -393,9 +395,9 @@ label.star:before {
 }
 .item-group{box-shadow: 1px 1px 20px #d4d2d2; margin-top: 15px;}
 .item-group:hover{box-shadow:1px 1px 20px #4a6d81;transition: 1s;}
-.item-group:hover img{opacity: .8}
+.item-group .cart-home:hover{opacity: .8}
 .group-info-item {padding: 10px}
-.item-group:hover .item-add-cart{background-color: #a5c0d1}
+.item-group .item-add-cart:hover{background-color: #a5c0d1; color: #4a6d81}
 
 .group-product-item{margin-top: 50px;}
 
