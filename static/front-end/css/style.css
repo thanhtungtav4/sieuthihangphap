@@ -1416,6 +1416,9 @@ label.star:before {
 .frm-checkout{
       font-weight: 500;
 }
+.product-more .group-product-item .item-group {
+    box-shadow: 1px 1px 20px #d4d2d2;
+}
 .voucher{margin: 37px auto}
 .voucher a{
       color: #ffffff;

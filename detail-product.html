@@ -59,6 +59,7 @@
     <!--[if IE 7]>
     <link rel="stylesheet" href="static/front-end/plugins/font-awesome/css/font-awesome-ie7.min.css" />
     <![endif]-->
+    <script src="//www.youtube.com/iframe_api"></script>
 </head>
 <body class="loading">
 <div id="fade">
@@ -312,7 +313,15 @@
                             </div>
                             <div class="main">
                                 <div class="slider slider-for">
-                                    <div><img src="https://sieuthihangphap.vn/uploads/Products/VITAFLOR/Vitaflor-Gelee-Royale-Bio.png" class="img-fluid" /></div>
+                                    <div class="slider-youtube">
+                                        <div class="item youtube">
+                                            <div class="video-background">
+                                                <div class="video-foreground">
+                                                    <iframe src="https://www.youtube.com/embed/M-hGwtvtXCk?controls=0&amp;showinfo=0&amp;loop=1&playlist=M-hGwtvtXCk&amp;enablejsapi=1&amp;iv_load_policy=3&amp;rel=0&amp;modestbranding=1" frameborder="0" allowfullscreen></iframe>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div><img src="https://sieuthihangphap.vn/uploads/Products/ARKOPHARMA/106-600x600.png" class="img-fluid" /></div>
                                     <div><img src="https://sieuthihangphap.vn/uploads/Products/VITAFLOR/Vitaflor-Gelee-Royale-Bio.png" class="img-fluid" /></div>
                                     <div><img src="https://sieuthihangphap.vn/uploads/Products/ARKOPHARMA/106-600x600.png" class="img-fluid" /></div>
@@ -1284,34 +1293,127 @@
         });
     });
 </script>
-<style>
-    #product-detail-mobile .content-carousel {
-        width: 300px;
-        display: block;
-        margin: 0 auto;
-    }
-    #product-detail-mobile .owl-carousel {
-        width: calc(100% - 170px);
-    }
-    #product-detail-mobile .owl-carousel div {
-        width: 100%;
-    }
-    #product-detail-mobile .owl-carousel .owl-controls .owl-dot {
-        background-size: cover;
-        margin-top: 10px;
-    }
-    #product-detail-mobile .owl-carousel .owl-dots {
-        position: absolute;
-        top: 0;
-        right: -170px;
-        width: 100px;
-        height: 100%;
-    }
-    #product-detail-mobile .owl-carousel .owl-dot {
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-</style>
+<script>
+    $(document).ready(function() {
+        $(".slider-youtube iframe").each(function (idx) {
+            $(this).addClass("data-idx-" + idx).data("idx", idx);
+        });
+
+        function getPlayer (iframe, onPlayerReady, clonned) {
+            var $iframe = $(iframe);
+            if ($iframe.data((clonned ? "clonned-" : "") + "player")) {
+                var isReady = $iframe.data((clonned ? "clonned-" : "") + "player-ready");
+                if (isReady) {
+                    onPlayerReady && onPlayerReady($iframe.data((clonned ? "clonned-" : "") + "player"));
+                }
+                return player;
+            }
+            else {
+                var player = new YT.Player($iframe.get(0), {
+                    events: {
+                        'onReady': function () {
+                            $iframe.data((clonned ? "clonned-" : "") + "player-ready", true);
+                            onPlayerReady && onPlayerReady(player);
+                        }
+                    }
+                });
+                $iframe.data((clonned ? "clonned-" : "") + "player", player);
+                return player;
+            }
+        }
+
+        //on first load, play the video
+        $(".slider-youtube").on('init', function(event, slick, currentSlide) {
+            var currentSlide, player, command;
+            currentSlide = $(slick.$slider).find(".slick-current");
+            getPlayer(currentSlide.find("iframe"), function (player) {
+                player.playVideo();
+            });
+        });
+
+        //when new slide displays, play the video
+        $(".slider-youtube").on("afterChange", function(event, slick) {
+            var currentSlide;
+            currentSlide = $(slick.$slider).find(".slick-current");
+            getPlayer(currentSlide.find("iframe"), function (player) {
+                player.playVideo();
+            });
+        });
+
+        function updateClonnedFrames () {
+            frames = $(".slider-youtube").find(".slick-slide").not(".slick-cloned").find("iframe");
+            frames.each(function () {
+                var frame = $(this);
+                var idx = frame.data("idx");
+                clonedFrames = $(".slider-youtube").find(".slick-cloned .data-idx-" + idx);
+                console.log("clonedFrames", frame, idx, clonedFrames);
+                clonedFrames.each(function () {
+                    var clonnedFrame = this;
+                    getPlayer(frame[0], function (player) {
+                        getPlayer(clonnedFrame, function (clonedPlayer) {
+                            console.log("clonnedPlayer", clonedPlayer);
+                            clonedPlayer.playVideo();
+                            clonedPlayer.seekTo(player.getCurrentTime(), true);
+                            setTimeout(function () {
+                                clonedPlayer.pauseVideo();
+                            }, 0);
+                        }, true);
+                    });
+                });
+            });
+        }
+
+        //reset iframe of non current slide
+        $(".slider-youtube").on('beforeChange', function(event, slick, currentSlide) {
+            var currentSlide, iframe, clonedFrame;
+            currentSlide = $(slick.$slider).find(".slick-current");
+            iframe = currentSlide.find("iframe");
+            getPlayer(iframe, function (player) {
+                player.pauseVideo();
+                updateClonnedFrames();
+            });
+        });
+
+        //start the slider
+        $('.slider-youtube').slick({
+            slidesToShow: 1,
+            arrows: false,
+            centerMode: true,
+            centerPadding: '50px',
+            infinite: true,
+            variableWidth: true
+        });
+    });
+
+</script>
+<!--<style>-->
+<!--    #product-detail-mobile .content-carousel {-->
+<!--        width: 300px;-->
+<!--        display: block;-->
+<!--        margin: 0 auto;-->
+<!--    }-->
+<!--    #product-detail-mobile .owl-carousel {-->
+<!--        width: calc(100% - 170px);-->
+<!--    }-->
+<!--    #product-detail-mobile .owl-carousel div {-->
+<!--        width: 100%;-->
+<!--    }-->
+<!--    #product-detail-mobile .owl-carousel .owl-controls .owl-dot {-->
+<!--        background-size: cover;-->
+<!--        margin-top: 10px;-->
+<!--    }-->
+<!--    #product-detail-mobile .owl-carousel .owl-dots {-->
+<!--        position: absolute;-->
+<!--        top: 0;-->
+<!--        right: -170px;-->
+<!--        width: 100px;-->
+<!--        height: 100%;-->
+<!--    }-->
+<!--    #product-detail-mobile .owl-carousel .owl-dot {-->
+<!--        background-size: cover;-->
+<!--        background-position: center;-->
+<!--        background-repeat: no-repeat;-->
+<!--    }-->
+<!--</style>-->
 </body>
 </html>
