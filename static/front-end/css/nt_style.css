@@ -488,6 +488,9 @@ body {
     border-radius: 0;
     background: #4b6e86;
 }
+.group-info-item{
+    min-height: 90px;
+}
 .alert-error {
     color: #4b6e86;
     font-weight: 600;
