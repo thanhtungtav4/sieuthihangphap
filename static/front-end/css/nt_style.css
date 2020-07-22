@@ -491,6 +491,9 @@ body {
 .group-info-item{
     min-height: 90px;
 }
+.slick-slide img {
+    margin: 0 auto;
+}
 .alert-error {
     color: #4b6e86;
     font-weight: 600;
@@ -526,6 +529,7 @@ body {
     padding-left: 35px;
     transform: 0.5s;
 }
+
 @media screen and (max-width: 1000px) {
     .breadcrumb a {
         font-size: 1rem;
@@ -541,6 +545,15 @@ body {
         padding-left: 15px;
         transition: 0.5s;
         background-color: #cbd5dc;
+    }
+    .modal .modal-body img{
+        max-width: 100% !important;
+        width: 100% !important;
+        height: auto!important;
+        z-index: 999999999999;
+    }
+    .modal {
+        top: 29px;
     }
 
 }
