@@ -213,15 +213,32 @@ table tr td {vertical-align: middle}
     height: 50%; /* width to centralise */
 }
 
-
+.item-price-update{
+    font-size: 15px;
+    font-weight: bold;
+    color: #4a6d81;
+}
 /* ------ random css ----*/
 .item h2, .item p{
     padding: 0.5rem;
     color: white;
     text-shadow: 1px 1px 1px black;
 }
-
-
+.footer-branch{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.check_is_hot{
+    color: red;
+    font-weight: bold;
+}
+.footer-box-update li{
+    margin-left: 30px;
+    font-size: 13.5px;
+}
+.footer-box-update li a{
+    color: white;
+}
 #loading-dt {  width: 100%; height: 100%; background: #fff; position: fixed; z-index: 9999; top: 0; left: 0; }
 #loading-dt .spinner {     top: 50%;margin: -20px auto 0 auto; width: 40px; height: 40px; position: relative; text-align: center; -webkit-animation: sk-rotate 2.0s infinite linear; animation: sk-rotate 2.0s infinite linear;}
 #loading-dt .dot1,#loading-dt .dot2 {width: 60%;height: 60%; display: inline-block; position: absolute; top: 0;background-color: #e32c24; border-radius: 100%; -webkit-animation: sk-bounce 2.0s infinite ease-in-out; animation: sk-bounce 2.0s infinite ease-in-out;}
