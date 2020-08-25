@@ -566,7 +566,9 @@ body {
     .slider .slick-current{
         max-height: 500px;
     }
-    .item-add-cart {
+}
+@media screen and (max-width: 768px) {
+    .group-info-item .item-price .item-add-cart {
         width: 100%;
     }
 }

@@ -102,16 +102,6 @@
          </div>
          <div class="col-12 col-sm-6 col-md-4 text-sm-right text-center">
             <div class="register">
-                            <span class="pr-2">
-                                <a href="https://sieuthihangphap.vn/dang-nhap">Đăng nhập</a>
-                            </span>
-               |
-               <span class="pl-2">
-                                <a href="https://sieuthihangphap.vn/dang-ky">Đăng ký</a>
-                            </span>
-            </div>
-
-            <div class="register">
                             <span>
                                 <a href="" class="cart-nt">
                                     <img src="static/front-end/images/cart-top.png" class="img-fluid" />
@@ -193,43 +183,21 @@
 </header>
 <!--//is moblie-->
 <header class="header-menu header-menu-mobile d-block d-md-block d-lg-none is_mobile fix-position">
-   <div class="row">
-      <div class="col-12">
-         <div class="hight-menu"></div>
-      </div>
-   </div>
    <div class="container pd-15">
       <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
       <div class="row d-flex align-items-center">
-         <div class="col-6 col-sm-6 text-left">
+         <div class="col-8 col-sm-6 text-left">
             <a href="https://sieuthihangphap.vn">
                <img src="static/front-end/images/logo.png" class="img-fluid" />
             </a>
          </div>
-         <div class="col-6 col-sm-6 text-sm-right text-right mobile-login-cart">
+         <div class="col-4 col-sm-6 text-sm-right text-right mobile-login-cart">
             <div class="register">
-                            <span>
-                                <a href="https://sieuthihangphap.vn/dang-ky">Đăng ký</a>
-                            </span>
-               |
-               <span>
-                                <a href="https://sieuthihangphap.vn/dang-nhap">Đăng nhập</a>
-                            </span>
-            </div>
-
-            <div class="register">
-                            <span>
-                                <a href="" class="cart-nt">
-                                    <img src="static/front-end/images/cart-top.png" class="img-fluid" />
-                                    <div class="cart-item-number" id="cart-qty">0</div>
-                                </a>
-                            </span>
-               <span class="pl-3 pr-3">
-                                <a href="https://sieuthihangphap.vn/dang-nhap">Sản Phẩm</a>
-                            </span>
-               <span class="money_number">
-                                50.000đ
-                            </span>
+               <a href="" class="cart-nt cart-nt-custome">
+                  <img src="static/front-end/images/cart-top.png" class="img-fluid" />
+                  <div class="cart-item-number" id="cart-qty">0</div>
+               </a>
+               <p class="nt-text-product"> <a href="https://sieuthihangphap.vn/dang-nhap">Sản Phẩm</a></p>
             </div>
          </div>
       </div>
@@ -557,7 +525,9 @@
    <section class="d-md-none is_mobile">
       <div class="row">
          <div class="col-12 text-center pt-3">
-            <img src="static/front-end/images/slider-mobile.jpeg" class="img-fluid" />
+            <div class="item">
+               <img src="static/front-end/images/slide-header.png" class="img-fluid">
+            </div>
          </div>
       </div>
    </section>
@@ -609,7 +579,7 @@
    </section>
    <!-- list product -->
    <section class="container pt-3 d-none d-md-block">
-      <div class="row">
+      <div class="row ">
          <div class="col-4 col-sm-3 col-md-2 logo-product-item">
             <img src="static/front-end/images/logo-product.png" class="img-fluid" />
          </div>
@@ -631,17 +601,26 @@
       </div>
    </section>
    <!-- !list product -->
+   <!-- banner mobile -->
+   <div class="container-fluid p-0 d-md-none d-md-none is_mobile">
+      <div class="main-slider owl-slider owl-carousel owl-theme">
+         <div class="item">
+            <img src="static/front-end/images/slide-header.png" class="img-fluid" />
+         </div>
+         <div class="item">
+            <img src="static/front-end/images/slide-header.png" class="img-fluid" />
+         </div>
+      </div>
+      <div class="owl-theme">
+         <div class="owl-controls">
+            <div class="custom-nav owl-nav"></div>
+         </div>
+      </div>
+   </div>
+   <!-- banner mobile -->
    <div class="container pt-5">
       <!-- item -->
       <div class="item">
-         <!--         <div class="item-category nt-tab-product">-->
-         <!--            <ul class="nav nav-tabs row" role="tablist">-->
-         <!--               <li class="nav-item col text-left d">-->
-         <!--                  <a class="nav-link active show active-text-flash-seo" href="#tay-trang" role="tab" data-toggle="tab">FLASH DEAL</a>-->
-         <!--                  <a class="nav-link active text-right" href="#" role="tab" data-toggle="tab">Xem thêm >></a>-->
-         <!--               </li>-->
-         <!--            </ul>-->
-         <!--         </div>-->
          <div class="row align-items-end">
             <div class="col-sm-6 col-7 text-left">
                <a class="nav-link active show active-text-flash-seo" href="#">FLASH DEAL</a>

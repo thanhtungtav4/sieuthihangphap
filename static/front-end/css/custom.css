@@ -218,7 +218,12 @@ table tr td {vertical-align: middle}
     font-weight: bold;
     color: #4a6d81;
 }
+.cart-nt-custome{
+    right: 1rem;
+}
+.nt-text-product{
 
+}
 .active-text-flash-seo {
     padding-bottom: 0px;
     font-weight: bold;
