@@ -566,6 +566,9 @@ body {
     .slider .slick-current{
         max-height: 500px;
     }
+    .item-add-cart {
+        width: 100%;
+    }
 }
 @media screen and (max-width: 700px) {
     .nt-tab-product .nav-item .nav-link{
@@ -625,6 +628,7 @@ body {
     .owl-theme .custom-nav {
         top: 11%;
     }
+
 }
 @media screen and (max-width: 480px) {
     .nt-nav-link {
@@ -679,6 +683,12 @@ body {
     }
     .sliderMain {
         max-width: 260px;
+    }
+    .active-text-flash-seo{
+        font-size: 1.3rem;
+    }
+    .text-right .view_more_nt{
+        font-size: 0.7rem;
     }
 }
 @media screen and (max-width: 385px) {
