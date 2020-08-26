@@ -1605,10 +1605,10 @@ line-height: 40px;
     border-color: #4a6d81;
 }
 .nt-bar{
-    background: #a5c0d1 !important;
-    border: 1px solid #4a6d81;
-    color: #4a6d81;
-    font-size: 20px;
+    /*background: #a5c0d1 !important;*/
+    /*border: 1px solid #4a6d81;*/
+    /*color: #4a6d81;*/
+    font-size: 27px;
     padding-top: 0px;
     padding-bottom: 0px;
     padding-right: 8px;

@@ -75,7 +75,7 @@
     font-weight: 500
 }
 .is_mobile .cart-nt >img{
-    width: 31px;
+    width: 27px;
 }
 .is_mobile .register {
     font-size: 13px;
@@ -90,7 +90,7 @@
     font-size: 10px;
     padding: 1px 0px;
     text-align: center;
-    right: 2px;
+    right: -5px;
     bottom: 9px;
 }
 .is_mobile  .overlay h4 {
@@ -398,10 +398,10 @@ body {
     text-align: center;
     padding: 18px 17px;
     text-decoration: none;
-    background: #a5c0d1 !important;
-    border: 1px solid #4a6d81;
+    /*background: #a5c0d1 !important;*/
+    /*border: 1px solid #4a6d81;*/
     color: #4a6d81;
-    font-size: 17px;
+    /*font-size: 17px;*/
     font-weight: 600;
     padding-top: 0px;
     padding-bottom: 0px;
@@ -487,7 +487,7 @@ body {
     width: 100%;
 }
 .fix-slider-mobile{
-    padding-top:140px
+    padding-top:116px
 }
 .custom-modal .modal-header, .alert-modal .modal-header {
     border-radius: 0;
@@ -635,6 +635,9 @@ body {
 @media screen and (max-width: 480px) {
     .nt-nav-link {
         font-size: 11px;
+    }
+    .w-90{
+        width: 80%;
     }
 }
 @media screen and (max-width: 470px) {

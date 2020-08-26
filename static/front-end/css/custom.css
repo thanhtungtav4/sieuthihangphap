@@ -221,8 +221,13 @@ table tr td {vertical-align: middle}
 .cart-nt-custome{
     right: 1rem;
 }
-.nt-text-product{
-
+.pd-10 {
+    padding: 10px 0;
+}
+.nt-text-product a{
+    color: #4a6d81;
+    font-weight: bold;
+    white-space: nowrap;
 }
 .active-text-flash-seo {
     padding-bottom: 0px;
