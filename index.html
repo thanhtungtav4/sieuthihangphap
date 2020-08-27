@@ -68,7 +68,7 @@
       <div class="rect5"></div>
    </div>
 </div>
-<header class="header-menu d-none d-lg-block fix-position">
+<header class="header-menu d-none d-lg-block fix-position" id="navbar">
    <div class="container">
       <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
       <div class="row d-flex align-items-center">
@@ -1159,6 +1159,17 @@
          $(".btn-dropdown-item-mobile").removeClass("icon-down");
       });
    });
+   /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+   var prevScrollpos = window.pageYOffset;
+   window.onscroll = function() {
+      var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+         document.getElementById("navbar").style.top = "0";
+      } else {
+         document.getElementById("navbar").style.top = "-115px";
+      }
+      prevScrollpos = currentScrollPos;
+   }
 </script>
 </body>
 </html>
