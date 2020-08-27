@@ -128,6 +128,10 @@ table tr td {vertical-align: middle}
 .ww-80{
     width:90%;
 }
+.footer-box-left{
+    display: inline-grid;
+    width: 90px;
+}
 .header-menu {
     background-color: #edeee8;
 }
@@ -253,9 +257,10 @@ table tr td {vertical-align: middle}
     color: red;
     font-weight: bold;
 }
-.footer-box-update li{
+.footer-box-update li, .nt-footer-p{
     margin-left: 30px;
-    font-size: 13.5px;
+    font-size: 14.5px;
+    font-weight: 500;
 }
 .footer-box-update li a{
     color: white;

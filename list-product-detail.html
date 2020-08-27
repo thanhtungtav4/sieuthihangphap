@@ -49,13 +49,11 @@
     <link href="static/front-end/vendor/dropdownhover/css/bootstrap-dropdownhover.min.css" rel="stylesheet" />
     <link href="static/front-end/vendor/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <link href="static/front-end/vendor/jquery-confirm/css/jquery-confirm.css" rel="stylesheet" type="text/css" />
-    <link href="static/front-end/css/custom.css?v=1591519634" rel="stylesheet" />
     <!-- Custom styles for this template -->
+    <link href="static/front-end/css/custom.css?v=1591519634" rel="stylesheet" />
     <link href="static/front-end/css/style.css" rel="stylesheet" />
     <link href="static/front-end/css/nt_style.css" rel="stylesheet" />
-
     <link href="static/front-end/css/swapimagesonhover.min.css" rel="stylesheet" type="text/css" />
-
     <!--[if IE 7]>
     <link rel="stylesheet" href="static/front-end/plugins/font-awesome/css/font-awesome-ie7.min.css" />
     <![endif]-->
@@ -70,16 +68,11 @@
         <div class="rect5"></div>
     </div>
 </div>
-<header class="header-menu d-none d-lg-block fix-position">
-    <div class="row">
-        <div class="col-12">
-            <div class="hight-menu"></div>
-        </div>
-    </div>
-    <div class="container pd-15">
+<header class="header-menu d-none d-lg-block fix-position" id="navbar">
+    <div class="container">
         <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
         <div class="row d-flex align-items-center">
-            <div class="col-12 col-sm-6 col-md-4 text-sm-left text-center">
+            <div class="col-12 col-sm-6 col-md-3 text-sm-left text-center">
                 <div class="row w-810">
                     <div class="input-group">
                         <input type="text" class="form-control nt-hight-input" placeholder="" />
@@ -95,22 +88,12 @@
                     <span> <i class="fa fa-phone fa-3 pr-4 pt-1" aria-hidden="true"></i></span>
                 </div>
             </div>
-            <div class="col-12 col-sm-6 col-md-4 text-center">
+            <div class="col-12 col-sm-6 col-md-6 text-center">
                 <a href="https://sieuthihangphap.vn">
-                    <img src="static/front-end/images/logo.png" class="img-fluid" />
+                    <img src="static/front-end/images/logo.png" class="img-fluid ww-80" />
                 </a>
             </div>
-            <div class="col-12 col-sm-6 col-md-4 text-sm-right text-center">
-                <div class="register">
-                            <span class="pr-2">
-                                <a href="https://sieuthihangphap.vn/dang-nhap">Đăng nhập</a>
-                            </span>
-                    |
-                    <span class="pl-2">
-                                <a href="https://sieuthihangphap.vn/dang-ky">Đăng ký</a>
-                            </span>
-                </div>
-
+            <div class="col-12 col-sm-6 col-md-3 text-sm-right text-center">
                 <div class="register">
                             <span>
                                 <a href="" class="cart-nt">
@@ -118,7 +101,7 @@
                                     <div class="cart-item-number" id="cart-qty">0</div>
                                 </a>
                             </span>
-                    <span class="pl-3 pr-3">
+                    <span class="pl-2 pr-2">
                                 <a href="https://sieuthihangphap.vn/dang-nhap">Sản Phẩm</a>
                             </span>
                     <span class="money_number">
@@ -192,51 +175,11 @@
     </div>
 </header>
 <!--//is moblie-->
-<header class="header-menu header-menu-mobile d-block d-md-block d-lg-none is_mobile fix-position">
-    <div class="row">
-        <div class="col-12">
-            <div class="hight-menu"></div>
-        </div>
-    </div>
-    <div class="container pd-15">
+<header class="header-menu header-menu-mobile d-block d-md-block d-lg-none is_mobile fix-position" id="navbar_mobile">
+    <div class="container pd-15 pd-10">
         <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
         <div class="row d-flex align-items-center">
-            <div class="col-6 col-sm-6 text-left">
-                <a href="https://sieuthihangphap.vn">
-                    <img src="static/front-end/images/logo.png" class="img-fluid" />
-                </a>
-            </div>
-            <div class="col-6 col-sm-6 text-sm-right text-right mobile-login-cart">
-                <div class="register">
-                            <span>
-                                <a href="https://sieuthihangphap.vn/dang-ky">Đăng ký</a>
-                            </span>
-                    |
-                    <span>
-                                <a href="https://sieuthihangphap.vn/dang-nhap">Đăng nhập</a>
-                            </span>
-                </div>
-
-                <div class="register">
-                            <span>
-                                <a href="" class="cart-nt">
-                                    <img src="static/front-end/images/cart-top.png" class="img-fluid" />
-                                    <div class="cart-item-number" id="cart-qty">0</div>
-                                </a>
-                            </span>
-                    <span class="pl-3 pr-3">
-                                <a href="https://sieuthihangphap.vn/dang-nhap">Sản Phẩm</a>
-                            </span>
-                    <span class="money_number">
-                                50.000đ
-                            </span>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="bg-primary-nt">
-        <div class="container">
-            <div class="row">
+            <div class="col-2 align-self-center">
                 <div id="sideNavigation" class="sidenav">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                     <ul>
@@ -263,6 +206,26 @@
                         <i class="fa fa-bars fa-3" aria-hidden="true"></i>
                     </a>
                 </nav>
+            </div>
+            <div class="col-7 col-sm-6 align-self-center pl-0 pr-0 text-center">
+                <a href="https://sieuthihangphap.vn">
+                    <img src="static/front-end/images/logo.png" class="img-fluid w-90" />
+                </a>
+            </div>
+            <div class="col align-self-center col-sm-6 text-sm-right text-right mobile-login-cart pl-0">
+                <div class="register">
+                    <a href="" class="cart-nt cart-nt-custome">
+                        <img src="static/front-end/images/cart-top.png" class="img-fluid" />
+                        <div class="cart-item-number" id="cart-qty">0</div>
+                    </a>
+                    <p class="nt-text-product"><a href="https://sieuthihangphap.vn/dang-nhap">Sản Phẩm</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-primary-nt">
+        <div class="container">
+            <div class="row">
                 <div class="input-group col">
                     <input type="text" class="form-control nt-hight-input" placeholder="Nhập tên sản phẩm cần tìm" />
                     <div class="input-group-append">
@@ -271,12 +234,11 @@
                         </button>
                     </div>
                 </div>
-                <span> <i class="fa fa-map-marker fa-3 pr-3 pl-1 pt-1 col" aria-hidden="true"></i></span>
-                <span> <i class="fa fa-phone fa-3 pr-3 pt-1 col" aria-hidden="true"></i></span>
             </div>
         </div>
     </div>
 </header>
+
 <main role="main">
     <h1 style="display: none;">Siêu thị hàng pháp</h1>
     <!-- sider-->

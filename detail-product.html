@@ -71,16 +71,11 @@
         <div class="rect5"></div>
     </div>
 </div>
-<header class="header-menu d-none d-lg-block">
-    <div class="row">
-        <div class="col-12">
-            <div class="hight-menu"></div>
-        </div>
-    </div>
-    <div class="container pd-15">
+<header class="header-menu d-none d-lg-block fix-position" id="navbar">
+    <div class="container">
         <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
         <div class="row d-flex align-items-center">
-            <div class="col-12 col-sm-6 col-md-4 text-sm-left text-center">
+            <div class="col-12 col-sm-6 col-md-3 text-sm-left text-center">
                 <div class="row w-810">
                     <div class="input-group">
                         <input type="text" class="form-control nt-hight-input" placeholder="" />
@@ -96,21 +91,12 @@
                     <span> <i class="fa fa-phone fa-3 pr-4 pt-1" aria-hidden="true"></i></span>
                 </div>
             </div>
-            <div class="col-12 col-sm-6 col-md-4 text-center">
+            <div class="col-12 col-sm-6 col-md-6 text-center">
                 <a href="https://sieuthihangphap.vn">
-                    <img src="static/front-end/images/logo.png" class="img-fluid" />
+                    <img src="static/front-end/images/logo.png" class="img-fluid ww-80" />
                 </a>
             </div>
-            <div class="col-12 col-sm-6 col-md-4 text-sm-right text-center">
-                <div class="register">
-                            <span class="pr-2">
-                                <a href="https://sieuthihangphap.vn/dang-nhap">Đăng nhập</a>
-                            </span>
-                    |
-                    <span class="pl-2">
-                                <a href="https://sieuthihangphap.vn/dang-ky">Đăng ký</a>
-                            </span>
-                </div>
+            <div class="col-12 col-sm-6 col-md-3 text-sm-right text-center">
                 <div class="register">
                             <span>
                                 <a href="" class="cart-nt">
@@ -118,7 +104,7 @@
                                     <div class="cart-item-number" id="cart-qty">0</div>
                                 </a>
                             </span>
-                    <span class="pl-3 pr-3">
+                    <span class="pl-2 pr-2">
                                 <a href="https://sieuthihangphap.vn/dang-nhap">Sản Phẩm</a>
                             </span>
                     <span class="money_number">
@@ -192,50 +178,11 @@
     </div>
 </header>
 <!--//is moblie-->
-<header class="header-menu header-menu-mobile d-block d-md-block d-lg-none is_mobile">
-    <div class="row">
-        <div class="col-12">
-            <div class="hight-menu"></div>
-        </div>
-    </div>
-    <div class="container pd-15">
+<header class="header-menu header-menu-mobile d-block d-md-block d-lg-none is_mobile fix-position" id="navbar_mobile">
+    <div class="container pd-15 pd-10">
         <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
         <div class="row d-flex align-items-center">
-            <div class="col-6 col-sm-6 text-left">
-                <a href="https://sieuthihangphap.vn">
-                    <img src="static/front-end/images/logo.png" class="img-fluid" />
-                </a>
-            </div>
-            <div class="col-6 col-sm-6 text-sm-right text-right mobile-login-cart">
-                <div class="register">
-                            <span>
-                                <a href="https://sieuthihangphap.vn/dang-ky">Đăng ký</a>
-                            </span>
-                    |
-                    <span>
-                                <a href="https://sieuthihangphap.vn/dang-nhap">Đăng nhập</a>
-                            </span>
-                </div>
-                <div class="register">
-                            <span>
-                                <a href="" class="cart-nt">
-                                    <img src="static/front-end/images/cart-top.png" class="img-fluid" />
-                                    <div class="cart-item-number" id="cart-qty">0</div>
-                                </a>
-                            </span>
-                    <span class="pl-3 pr-3">
-                                <a href="https://sieuthihangphap.vn/dang-nhap">Sản Phẩm</a>
-                            </span>
-                    <span class="money_number">
-                                50.000đ
-                            </span>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="bg-primary-nt">
-        <div class="container">
-            <div class="row">
+            <div class="col-2 align-self-center">
                 <div id="sideNavigation" class="sidenav">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                     <ul>
@@ -262,6 +209,26 @@
                         <i class="fa fa-bars fa-3" aria-hidden="true"></i>
                     </a>
                 </nav>
+            </div>
+            <div class="col-7 col-sm-6 align-self-center pl-0 pr-0 text-center">
+                <a href="https://sieuthihangphap.vn">
+                    <img src="static/front-end/images/logo.png" class="img-fluid w-90" />
+                </a>
+            </div>
+            <div class="col align-self-center col-sm-6 text-sm-right text-right mobile-login-cart pl-0">
+                <div class="register">
+                    <a href="" class="cart-nt cart-nt-custome">
+                        <img src="static/front-end/images/cart-top.png" class="img-fluid" />
+                        <div class="cart-item-number" id="cart-qty">0</div>
+                    </a>
+                    <p class="nt-text-product"><a href="https://sieuthihangphap.vn/dang-nhap">Sản Phẩm</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-primary-nt">
+        <div class="container">
+            <div class="row">
                 <div class="input-group col">
                     <input type="text" class="form-control nt-hight-input" placeholder="Nhập tên sản phẩm cần tìm" />
                     <div class="input-group-append">
@@ -270,12 +237,11 @@
                         </button>
                     </div>
                 </div>
-                <span> <i class="fa fa-map-marker fa-3 pr-3 pl-1 pt-1 col" aria-hidden="true"></i></span>
-                <span> <i class="fa fa-phone fa-3 pr-3 pt-1 col" aria-hidden="true"></i></span>
             </div>
         </div>
     </div>
 </header>
+
 <main role="main">
     <h1 style="display: none;">Siêu thị hàng pháp</h1>
     <!-- sider-->
@@ -816,31 +782,25 @@
                         <div class="item-group">
                             <div class="item-thumb">
                                 <div class="item-group-hot">
-                                    <div class="item-news">New</div>
+                                    <div class="item-discount">-11%</div>
                                 </div>
                                 <div class="wl-product">
                                     <div class="item-heart" onclick="cart.wishlist(this,'3')">
-                                        <img class="wl-img" src="static/front-end/images/heart.png" />
+                                        <img class="wl-img" src="static/front-end/images/heart.png">
                                     </div>
                                 </div>
-                                <a href="">
-                                    <div class="swim-container">
-                                        <img
-                                                src="https://sieuthihangphap.vn/uploads/Products/2728-p2-1553596344.jpg"
-                                                data-img="https://sieuthihangphap.vn/uploads/image/product/thuc_pham_chuc_nang/32919072_10155753685666731_8524315583435505664_n.jpg"
-                                                class="swim img-fluid"
-                                        />
-                                    </div>
+                                <a href="product2.html">
+                                    <div class="swim-container"><img src="https://sieuthihangphap.vn/uploads/Products/CAUDALIE/16007335301-4-700.jpg" data-img="https://sieuthihangphap.vn/uploads/Products/CAUDALIE/review-kem-duong-dem-caudalie-vinoperfect-nubeauty-4.jpg" class="swim img-fluid"><img src="https://sieuthihangphap.vn/uploads/Products/CAUDALIE/review-kem-duong-dem-caudalie-vinoperfect-nubeauty-4.jpg" class="swim img-fluid"></div>
                                 </a>
                             </div>
                             <div class="group-info-item">
-                                <div class="item-name"><a href="">Viên uống kích thích mọc tóc </a></div>
+                                <div class="item-name"><a href="san-pham/sua-tay-trang-dang-l-oreal-400ml-3">Kem dưỡng Caudalie Vinoperfect 40ml dưỡng Caudalie Vinoperfect 40ml</a></div>
+                                <div class="item-price-update text-center">860.000VNĐ</div>
                                 <div class="item-price">
-                                    <div class="row pt-sm-2 product-cart-btn">
-                                        <div class="col-sm"><span class="item-money-price">244,000VNĐ</span></div>
+                                    <div class="row">
                                         <div class="col-sm">
                                             <a href="javascript:void(0)" onclick="cart.addToCart('125',1)">
-                                                <div class="item-add-cart">Add to Cart <img src="static/front-end/images/icon-cart.png" /></div>
+                                                <div class="item-add-cart"><img src="static/front-end/images/icon-cart.png"> THÊM VÀO GIỎ</div>
                                             </a>
                                         </div>
                                     </div>
@@ -852,27 +812,25 @@
                         <div class="item-group">
                             <div class="item-thumb">
                                 <div class="item-group-hot">
-                                    <div class="item-news">New</div>
+                                    <div class="item-discount">-11%</div>
                                 </div>
                                 <div class="wl-product">
                                     <div class="item-heart" onclick="cart.wishlist(this,'3')">
-                                        <img class="wl-img" src="static/front-end/images/heart.png" />
+                                        <img class="wl-img" src="static/front-end/images/heart.png">
                                     </div>
                                 </div>
-                                <a href="">
-                                    <div class="swim-container">
-                                        <img src="static/front-end/images/image1.png" data-img="static/front-end/images/product.png" class="swim img-fluid" />
-                                    </div>
+                                <a href="product2.html">
+                                    <div class="swim-container"><img src="https://sieuthihangphap.vn/uploads/Products/CAUDALIE/16007335301-4-700.jpg" data-img="https://sieuthihangphap.vn/uploads/Products/CAUDALIE/review-kem-duong-dem-caudalie-vinoperfect-nubeauty-4.jpg" class="swim img-fluid"><img src="https://sieuthihangphap.vn/uploads/Products/CAUDALIE/review-kem-duong-dem-caudalie-vinoperfect-nubeauty-4.jpg" class="swim img-fluid"></div>
                                 </a>
                             </div>
                             <div class="group-info-item">
-                                <div class="item-name"><a href="">Sữa tẩy trang dạng L'oreal 400ml</a></div>
+                                <div class="item-name"><a href="san-pham/sua-tay-trang-dang-l-oreal-400ml-3">Kem dưỡng Caudalie Vinoperfect 40ml dưỡng Caudalie Vinoperfect 40ml</a></div>
+                                <div class="item-price-update text-center">860.000VNĐ</div>
                                 <div class="item-price">
-                                    <div class="row pt-sm-2 product-cart-btn">
-                                        <div class="col-sm"><span class="item-money-price">244,000VNĐ</span></div>
+                                    <div class="row">
                                         <div class="col-sm">
                                             <a href="javascript:void(0)" onclick="cart.addToCart('125',1)">
-                                                <div class="item-add-cart">Add to Cart <img src="static/front-end/images/icon-cart.png" /></div>
+                                                <div class="item-add-cart"><img src="static/front-end/images/icon-cart.png"> THÊM VÀO GIỎ</div>
                                             </a>
                                         </div>
                                     </div>
@@ -884,31 +842,25 @@
                         <div class="item-group">
                             <div class="item-thumb">
                                 <div class="item-group-hot">
-                                    <div class="item-news">New</div>
+                                    <div class="item-discount">-11%</div>
                                 </div>
                                 <div class="wl-product">
                                     <div class="item-heart" onclick="cart.wishlist(this,'3')">
-                                        <img class="wl-img" src="static/front-end/images/heart.png" />
+                                        <img class="wl-img" src="static/front-end/images/heart.png">
                                     </div>
                                 </div>
-                                <a href="">
-                                    <div class="swim-container">
-                                        <img
-                                                src="https://sieuthihangphap.vn/uploads/Products/ARKOPHARMA/ARKOPHARMA-Arkogelules-omega-3-fonctionnement-cardiovasculaire-60-gelules-2-10273_104_1549900201.jpg"
-                                                data-img="https://sieuthihangphap.vn/uploads/image/product/thuc_pham_chuc_nang/42045437_541810646250812_5457249467080114176_n.jpg"
-                                                class="swim img-fluid"
-                                        />
-                                    </div>
+                                <a href="product2.html">
+                                    <div class="swim-container"><img src="https://sieuthihangphap.vn/uploads/Products/CAUDALIE/16007335301-4-700.jpg" data-img="https://sieuthihangphap.vn/uploads/Products/CAUDALIE/review-kem-duong-dem-caudalie-vinoperfect-nubeauty-4.jpg" class="swim img-fluid"><img src="https://sieuthihangphap.vn/uploads/Products/CAUDALIE/review-kem-duong-dem-caudalie-vinoperfect-nubeauty-4.jpg" class="swim img-fluid"></div>
                                 </a>
                             </div>
                             <div class="group-info-item">
-                                <div class="item-name"><a href="">Viên uống bổ sung OMEGA 3 ARKOPHARMA</a></div>
+                                <div class="item-name"><a href="san-pham/sua-tay-trang-dang-l-oreal-400ml-3">Kem dưỡng Caudalie Vinoperfect 40ml dưỡng Caudalie Vinoperfect 40ml</a></div>
+                                <div class="item-price-update text-center">860.000VNĐ</div>
                                 <div class="item-price">
-                                    <div class="row pt-sm-2 product-cart-btn">
-                                        <div class="col-sm"><span class="item-money-price">549,000VNĐ</span></div>
+                                    <div class="row">
                                         <div class="col-sm">
                                             <a href="javascript:void(0)" onclick="cart.addToCart('125',1)">
-                                                <div class="item-add-cart">Add to Cart <img src="static/front-end/images/icon-cart.png" /></div>
+                                                <div class="item-add-cart"><img src="static/front-end/images/icon-cart.png"> THÊM VÀO GIỎ</div>
                                             </a>
                                         </div>
                                     </div>
@@ -920,32 +872,25 @@
                         <div class="item-group">
                             <div class="item-thumb">
                                 <div class="item-group-hot">
-                                    <div class="item-news">New</div>
+                                    <div class="item-discount">-11%</div>
                                 </div>
                                 <div class="wl-product">
                                     <div class="item-heart" onclick="cart.wishlist(this,'3')">
-                                        <img class="wl-img" src="static/front-end/images/heart.png" />
+                                        <img class="wl-img" src="static/front-end/images/heart.png">
                                     </div>
                                 </div>
-                                <a href="">
-                                    <div class="swim-container">
-                                        <img
-                                                src="https://sieuthihangphap.vn/uploads/Products/VITAFLOR/Vitaflor-Gelee-Royale-Bio.png"
-                                                data-img="https://sieuthihangphap.vn/uploads/image/product/thuc_pham_chuc_nang/57209206_10156465004341731_8721387954494242816_n.jpg"
-                                                class="swim img-fluid"
-                                        />
-                                    </div>
+                                <a href="product2.html">
+                                    <div class="swim-container"><img src="https://sieuthihangphap.vn/uploads/Products/CAUDALIE/16007335301-4-700.jpg" data-img="https://sieuthihangphap.vn/uploads/Products/CAUDALIE/review-kem-duong-dem-caudalie-vinoperfect-nubeauty-4.jpg" class="swim img-fluid"><img src="https://sieuthihangphap.vn/uploads/Products/CAUDALIE/review-kem-duong-dem-caudalie-vinoperfect-nubeauty-4.jpg" class="swim img-fluid"></div>
                                 </a>
                             </div>
                             <div class="group-info-item">
-                                <div class="item-name">Viên uống bổ sung OMEGA 3 ARKOPHARMA</div>
+                                <div class="item-name"><a href="san-pham/sua-tay-trang-dang-l-oreal-400ml-3">Kem dưỡng Caudalie Vinoperfect 40ml dưỡng Caudalie Vinoperfect 40ml</a></div>
+                                <div class="item-price-update text-center">860.000VNĐ</div>
                                 <div class="item-price">
-                                    <div class="item-price-old">600,000VNĐ</div>
-                                    <div class="row product-cart-btn">
-                                        <div class="col-sm"><span class="item-money-price">549,000VNĐ</span></div>
+                                    <div class="row">
                                         <div class="col-sm">
-                                            <a href="javascript:void(0)" onclick="cart.addToCart('70',1)">
-                                                <div class="item-add-cart">Thêm vào giỏ <img src="static/front-end/images/icon-cart.png" /></div>
+                                            <a href="javascript:void(0)" onclick="cart.addToCart('125',1)">
+                                                <div class="item-add-cart"><img src="static/front-end/images/icon-cart.png"> THÊM VÀO GIỎ</div>
                                             </a>
                                         </div>
                                     </div>
@@ -1339,6 +1284,22 @@
             $('.sliderMain').slick('slickPlay');
         }
     });
+    /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+        } else {
+            document.getElementById("navbar").style.top = "-115px";
+        }
+        if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar_mobile").style.top = "0";
+        } else {
+            document.getElementById("navbar_mobile").style.top = "-115px";
+        }
+        prevScrollpos = currentScrollPos;
+    }
 
 </script>
 </body>

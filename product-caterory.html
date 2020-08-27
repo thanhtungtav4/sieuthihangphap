@@ -49,13 +49,11 @@
     <link href="static/front-end/vendor/dropdownhover/css/bootstrap-dropdownhover.min.css" rel="stylesheet" />
     <link href="static/front-end/vendor/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <link href="static/front-end/vendor/jquery-confirm/css/jquery-confirm.css" rel="stylesheet" type="text/css" />
-    <link href="static/front-end/css/custom.css?v=1591519634" rel="stylesheet" />
     <!-- Custom styles for this template -->
+    <link href="static/front-end/css/custom.css?v=1591519634" rel="stylesheet" />
     <link href="static/front-end/css/style.css" rel="stylesheet" />
     <link href="static/front-end/css/nt_style.css" rel="stylesheet" />
-
-    <link href="static/front-end/css/swapimagesonhover.min.css" rel="stylesheet" type="text/css"/>
-
+    <link href="static/front-end/css/swapimagesonhover.min.css" rel="stylesheet" type="text/css" />
     <!--[if IE 7]>
     <link rel="stylesheet" href="static/front-end/plugins/font-awesome/css/font-awesome-ie7.min.css" />
     <![endif]-->
@@ -70,16 +68,11 @@
         <div class="rect5"></div>
     </div>
 </div>
-<header class="header-menu d-none d-lg-block fix-position">
-    <div class="row">
-        <div class="col-12">
-            <div class="hight-menu"></div>
-        </div>
-    </div>
-    <div class="container pd-15">
+<header class="header-menu d-none d-lg-block fix-position" id="navbar">
+    <div class="container">
         <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
         <div class="row d-flex align-items-center">
-            <div class="col-12 col-sm-6 col-md-4 text-sm-left text-center">
+            <div class="col-12 col-sm-6 col-md-3 text-sm-left text-center">
                 <div class="row w-810">
                     <div class="input-group">
                         <input type="text" class="form-control nt-hight-input" placeholder="" />
@@ -95,149 +88,98 @@
                     <span> <i class="fa fa-phone fa-3 pr-4 pt-1" aria-hidden="true"></i></span>
                 </div>
             </div>
-            <div class="col-12 col-sm-6 col-md-4 text-center">
+            <div class="col-12 col-sm-6 col-md-6 text-center">
                 <a href="https://sieuthihangphap.vn">
-                    <img src="static/front-end/images/logo.png" class="img-fluid" />
+                    <img src="static/front-end/images/logo.png" class="img-fluid ww-80" />
                 </a>
             </div>
-            <div class="col-12 col-sm-6 col-md-4 text-sm-right text-center">
+            <div class="col-12 col-sm-6 col-md-3 text-sm-right text-center">
                 <div class="register">
-               <span class="pr-2">
-                   <a href="https://sieuthihangphap.vn/dang-nhap">Đăng nhập</a>
-               </span>
-                    |
-                    <span class="pl-2">
-                   <a href="https://sieuthihangphap.vn/dang-ky">Đăng ký</a>
-                </span>
-
-                </div>
-
-                <div class="register">
-                <span>
-                   <a href="" class="cart-nt">
-                      <img src="static/front-end/images/cart-top.png" class="img-fluid" />
-                      <div class="cart-item-number" id="cart-qty">0</div>
-                   </a>
-                </span>
-                    <span class="pl-3 pr-3">
-                   <a href="https://sieuthihangphap.vn/dang-nhap">Sản Phẩm</a>
-               </span>
-                    <span class="money_number ">
-                   50.000đ
-               </span>
+                            <span>
+                                <a href="" class="cart-nt">
+                                    <img src="static/front-end/images/cart-top.png" class="img-fluid" />
+                                    <div class="cart-item-number" id="cart-qty">0</div>
+                                </a>
+                            </span>
+                    <span class="pl-2 pr-2">
+                                <a href="https://sieuthihangphap.vn/dang-nhap">Sản Phẩm</a>
+                            </span>
+                    <span class="money_number">
+                                50.000đ
+                            </span>
                 </div>
             </div>
         </div>
-
-    </div>
-    <div class="bg-primary-nt">
-        <div class="container"> <nav class="navbar navbar-expand-lg navbar-light ">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent" data-hover="dropdown">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item  active ">
-                        <a class="nav-link" href="https://sieuthihangphap.vn">Trang chủ <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="gioi-thieu">Giới thiệu</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Danh sách sản phẩm
-                        </a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li>
-                                <a class="dropdown-item" href="danh-muc-san-pham/trang-diem-1">Trang điểm</a>
-                            </li>
-                            <li>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="danh-muc-san-pham/cham-soc-da-7">Chăm sóc da</a>
-                            </li>
-                            <li>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="danh-muc-san-pham/nuoc-hoa-16">Nước hoa</a>
-                            </li>
-                            <li>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="danh-muc-san-pham/cham-soc-co-the-21">Chăm sóc cơ thể</a>
-                            </li>
-                            <li>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="danh-muc-san-pham/thuc-pham-chuc-nang-24">Thực phẩm chức năng</a>
-                            </li>
-                            <li>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="danh-muc-san-pham/cham-soc-toc-25">Chăm sóc tóc</a>
-                            </li>
-                            <li>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="danh-muc-san-pham/goc-cho-be-26">Góc cho bé</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="khuyen-mai">Khuyễn mãi</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="bi-quyet-lam-dep">Bí quyết làm đẹp</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="lien-he">Liên hệ</a>
-                    </li>
-                </ul>
-            </div>
-        </nav></div>
-    </div>
-</header>
-<!--//is moblie-->
-<header class="header-menu header-menu-mobile d-block d-md-block d-lg-none is_mobile fix-position">
-    <div class="row">
-        <div class="col-12">
-            <div class="hight-menu"></div>
-        </div>
-    </div>
-    <div class="container pd-15 ">
-        <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
-        <div class="row d-flex align-items-center">
-            <div class="col-6 col-sm-6  text-left">
-                <a href="https://sieuthihangphap.vn">
-                    <img src="static/front-end/images/logo.png" class="img-fluid" />
-                </a>
-            </div>
-            <div class="col-6 col-sm-6  text-sm-right text-right mobile-login-cart">
-                <div class="register">
-                <span>
-                   <a href="https://sieuthihangphap.vn/dang-ky">Đăng ký</a>
-                </span>
-                    |
-                    <span>
-                   <a href="https://sieuthihangphap.vn/dang-nhap">Đăng nhập</a>
-               </span>
-                </div>
-
-                <div class="register">
-                <span>
-                   <a href="" class="cart-nt">
-                      <img src="static/front-end/images/cart-top.png" class="img-fluid" />
-                      <div class="cart-item-number" id="cart-qty">0</div>
-                   </a>
-                </span>
-                    <span class="pl-3 pr-3">
-                   <a href="https://sieuthihangphap.vn/dang-nhap">Sản Phẩm</a>
-               </span>
-                    <span class="money_number ">
-                   50.000đ
-               </span>
-                </div>
-            </div>
-        </div>
-
     </div>
     <div class="bg-primary-nt">
         <div class="container">
-            <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent" data-hover="dropdown">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="https://sieuthihangphap.vn">Trang chủ <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gioi-thieu">Giới thiệu</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Danh sách sản phẩm
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li>
+                                    <a class="dropdown-item" href="danh-muc-san-pham/trang-diem-1">Trang điểm</a>
+                                </li>
+                                <li>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="danh-muc-san-pham/cham-soc-da-7">Chăm sóc da</a>
+                                </li>
+                                <li>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="danh-muc-san-pham/nuoc-hoa-16">Nước hoa</a>
+                                </li>
+                                <li>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="danh-muc-san-pham/cham-soc-co-the-21">Chăm sóc cơ thể</a>
+                                </li>
+                                <li>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="danh-muc-san-pham/thuc-pham-chuc-nang-24">Thực phẩm chức năng</a>
+                                </li>
+                                <li>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="danh-muc-san-pham/cham-soc-toc-25">Chăm sóc tóc</a>
+                                </li>
+                                <li>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="danh-muc-san-pham/goc-cho-be-26">Góc cho bé</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="khuyen-mai">Khuyễn mãi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="bi-quyet-lam-dep">Bí quyết làm đẹp</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="lien-he">Liên hệ</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+<!--//is moblie-->
+<header class="header-menu header-menu-mobile d-block d-md-block d-lg-none is_mobile fix-position" id="navbar_mobile">
+    <div class="container pd-15 pd-10">
+        <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+        <div class="row d-flex align-items-center">
+            <div class="col-2 align-self-center">
                 <div id="sideNavigation" class="sidenav">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                     <ul>
@@ -249,7 +191,14 @@
                         <div class="dropdown-divider"></div>
                         <li><a href="">Khuyến mãi</a></li>
                         <div class="dropdown-divider"></div>
-                        <li><a href="">Bí Quyết Làm Đẹp</a></li>
+                        <li class="dropdown dropdown-item-mobile">
+                            <a class="btn-dropdown-item-mobile" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tin Khuyến mãi </a>
+                            <ul class="dropdown-menu dropdown-menu-child" aria-labelledby="navbarDropdown">
+                                <li><a href="#">Sale tháng 5</a></li>
+                                <li><a href="#">Sale tháng 6</a></li>
+                                <li><a href="#">Sale tháng 7</a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
                 <nav class="topnav">
@@ -257,20 +206,39 @@
                         <i class="fa fa-bars fa-3" aria-hidden="true"></i>
                     </a>
                 </nav>
+            </div>
+            <div class="col-7 col-sm-6 align-self-center pl-0 pr-0 text-center">
+                <a href="https://sieuthihangphap.vn">
+                    <img src="static/front-end/images/logo.png" class="img-fluid w-90" />
+                </a>
+            </div>
+            <div class="col align-self-center col-sm-6 text-sm-right text-right mobile-login-cart pl-0">
+                <div class="register">
+                    <a href="" class="cart-nt cart-nt-custome">
+                        <img src="static/front-end/images/cart-top.png" class="img-fluid" />
+                        <div class="cart-item-number" id="cart-qty">0</div>
+                    </a>
+                    <p class="nt-text-product"><a href="https://sieuthihangphap.vn/dang-nhap">Sản Phẩm</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-primary-nt">
+        <div class="container">
+            <div class="row">
                 <div class="input-group col">
-                    <input type="text" class="form-control nt-hight-input" placeholder="Nhập tên sản phẩm cần tìm">
+                    <input type="text" class="form-control nt-hight-input" placeholder="Nhập tên sản phẩm cần tìm" />
                     <div class="input-group-append">
                         <button class="btn btn-secondary nt-hight-input pt-1 nt-seach-btn" type="button">
                             <i class="fa fa-search"></i>
                         </button>
                     </div>
                 </div>
-                <span> <i class="fa fa-map-marker fa-3 pr-3 pl-1 pt-1 col" aria-hidden="true"></i></span>
-                <span> <i class="fa fa-phone fa-3 pr-3 pt-1 col" aria-hidden="true"></i></span>
             </div>
         </div>
     </div>
 </header>
+
 <main role="main">
     <h1 style="display: none;">Siêu thị hàng pháp</h1>
     <!-- sider-->
