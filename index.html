@@ -175,7 +175,7 @@
    </div>
 </header>
 <!--//is moblie-->
-<header class="header-menu header-menu-mobile d-block d-md-block d-lg-none is_mobile fix-position">
+<header class="header-menu header-menu-mobile d-block d-md-block d-lg-none is_mobile fix-position" id="navbar_mobile">
    <div class="container pd-15 pd-10">
       <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
       <div class="row d-flex align-items-center">
@@ -207,7 +207,7 @@
                </a>
             </nav>
          </div>
-         <div class="col-8 col-sm-6 align-self-center pl-0 pr-0">
+         <div class="col-7 col-sm-6 align-self-center pl-0 pr-0 text-center">
             <a href="https://sieuthihangphap.vn">
                <img src="static/front-end/images/logo.png" class="img-fluid w-90" />
             </a>
@@ -1167,6 +1167,11 @@
          document.getElementById("navbar").style.top = "0";
       } else {
          document.getElementById("navbar").style.top = "-115px";
+      }
+      if (prevScrollpos > currentScrollPos) {
+         document.getElementById("navbar_mobile").style.top = "0";
+      } else {
+         document.getElementById("navbar_mobile").style.top = "-115px";
       }
       prevScrollpos = currentScrollPos;
    }
