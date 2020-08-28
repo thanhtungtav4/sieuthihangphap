@@ -18,6 +18,14 @@
     box-orient: vertical;
     word-break: break-word;
 }
+.w-info-product{
+    width: 150px;
+    display: inline-flex;
+}
+.bg-info{
+    background-color: #a5c0d1;
+    padding: 15px 20px;
+}
 .wishlist-table td {vertical-align: middle}
 .wishlist-content .product-home-title a {color: #4a6d81}
 .group-product-item .item-name a {color: inherit}
