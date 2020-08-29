@@ -28,7 +28,10 @@
 .gap{
     padding-top: 160px;
 }
-.detail-product-update .item-add-cart{
+.detail-product-update .group-info-item .item-name{
+    height: 44px;
+}
+.detail-product-update .item-name{
     width: 100%;
     border-radius: unset;
 }
