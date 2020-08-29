@@ -1742,7 +1742,7 @@ line-height: 40px;
     opacity: 1;
 }
 .step-icon img {
-    width: 50px;
+    width: auto;
     height: 50px;
 }
 .step-icon {
@@ -1779,7 +1779,7 @@ line-height: 40px;
   
   .price-new{float: none;}
     .step-icon img {
-        width: 40px;
+        width: auto;
         height: 40px;
     }
     .step h4 {
