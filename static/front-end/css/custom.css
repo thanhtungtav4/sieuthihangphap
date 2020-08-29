@@ -31,8 +31,16 @@
 .detail-product-update .group-info-item .item-name{
     height: 44px;
 }
-.detail-product-update .item-name{
+.detail-product-update .item-add-cart {
+    background-color: #4a6d81;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-align: center;
     width: 100%;
+    margin: 0 auto;
     border-radius: unset;
 }
 .bg-info{

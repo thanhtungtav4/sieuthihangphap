@@ -657,7 +657,7 @@ label.star:before {
 .shopping{background-color: #edeee8; font-weight: 400; font-size: 13px; margin: 40px 0}
 .step-icon{ margin: 30px auto }
 .step-icon img{ width: 90px }
-.step{text-align: center; padding: 30px}
+.step{text-align: center; padding: 5px}
 .step-title{color: #8ba7bd;font-weight: 700; text-transform: uppercase; font-size: 16px; margin-bottom: 0;
 	overflow: hidden;
     display: -moz-box;
@@ -1723,16 +1723,54 @@ line-height: 40px;
 #sideNavigation .icon-up::after, #sideNavigation .icon-down::after{
     display: inline-block;
 }
+/*//update img 100%*/
+.item-thumb a img {
+    left: 0;
+    right: 0;
+    width: initial;
+    height: 100%;
+    margin: 0 auto;
+}
+.swim-container{
+    display: flex;
+     position: initial !important;
+}
+.swim-container>img:nth-child(2) {
+    opacity: 0;
+}
+.swim-container:hover>img:nth-child(2) {
+    opacity: 1;
+}
+.step-icon img {
+    width: 50px;
+    height: 50px;
+}
+.step-icon {
+    margin: 15px auto;
+}
+.step h4 {
+    color: #fff;
+}
 @media screen and (max-width: 768px) {
-
-  .mr-auto, .mx-auto{padding: 1em 0}
+  .mr-auto, .mx-auto{
+      padding: 1em 0
+  }
   .outer {margin-bottom: 30px; text-align: center; }
   .navbar{padding: .5em 0}
   .cart{    adding: 13px 15px;}
   .category-name{float: none;}
+    .footer-branch {
+        font-size: 1rem;
+    }
+    .footer-box-update li, .nt-footer-p {
+        margin-left: 10px;
+        font-size: 12.5px;
+        font-weight: 500;
+    }
+    .step h4 {
+        font-size: 9px;
+    }
 }
-
-
 @media screen and (max-width: 480px) {
 
   .nav-link { padding: 0 1rem .5rem;}
@@ -1740,5 +1778,13 @@ line-height: 40px;
   .product-price{text-align: left;}
   
   .price-new{float: none;}
+    .step-icon img {
+        width: 40px;
+        height: 40px;
+    }
+    .step h4 {
+        color: #fff;
+        font-size: 8px;
+    }
 
   }
