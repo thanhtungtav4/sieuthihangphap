@@ -338,7 +338,7 @@ label.star:before {
 .category-name a{color: #4a6d81;font-weight: 500;}
 .category-name a:hover{color: #000}
 /*item*/
-.item-price-old{color: #5f5f5f; font-size: 8px; font-weight: 600; text-decoration: line-through;}
+.item-price-old{color: #5f5f5f; font-size: 8px; font-weight: 600; height: 15px;text-decoration: line-through;}
 .item-thumb{position: relative;}
 .item-thumb a { 
     display: block;
