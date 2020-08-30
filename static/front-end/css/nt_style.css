@@ -596,6 +596,12 @@ body {
     padding-left: 35px;
     transform: 0.5s;
 }
+.item-price-old{
+    margin: 0 auto;
+    text-align: center;
+    color: #a5c0d1;
+}
+}
 @media screen and (min-width: 992px) {
     .item-price-old {
         color: #a5c0d1;
@@ -764,6 +770,9 @@ body {
         padding: 0;
         margin-left: 10px;
         margin-right: 10px;
+    }
+    .category-name{
+        height: 31px;
     }
 
 }
