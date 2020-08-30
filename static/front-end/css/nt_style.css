@@ -481,6 +481,9 @@ body {
     border-color: #a5c0d1;
     margin-bottom: 7px;
 }
+.pt-custome-152{
+    padding-top: 152px;
+}
 .cate-line{
     font-weight: 800;
 }
@@ -635,6 +638,9 @@ body {
     }
 }
 @media screen and (max-width: 768px) {
+    .pt-custome-152 {
+        padding-top: 129px;
+    }
     .group-info-item .item-price .item-add-cart {
         width: 100%;
     }
