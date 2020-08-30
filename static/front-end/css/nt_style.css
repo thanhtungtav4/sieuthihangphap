@@ -558,7 +558,10 @@ body {
     z-index: 99999999;
 
 }
-
+.slick-slider .slick-list  .slick-slide img{
+    max-height: 450px !important;
+    width: auto;
+}
 .btn-to-top{
     bottom: 236px;
 }
@@ -653,8 +656,11 @@ body {
         z-index: 9999999999999;
         top: 0;
     }
-    .modal-full-screen .modal-header{
-        
+    .modal-full-screen .modal-header .card-header-tabs{
+        display: contents;
+    }
+    .modal-full-screen .modal-header ul li a{
+        color: #4b6e86;
     }
     .modal-full-screen .modal-header{
         background: #a5c0d1;
