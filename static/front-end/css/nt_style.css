@@ -472,8 +472,8 @@ body {
 .collapse_nt .btn-info {
     color: #4a6d81;
     font-size: 1rem;
-    padding-top: 14px;
-    font-weight: bold;
+    padding-top: 10px;
+    font-weight: 600;
     background-color: #a5c0d1;
     border-color: #a5c0d1;
     margin-bottom: 7px;
