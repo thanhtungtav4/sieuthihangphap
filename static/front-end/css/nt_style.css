@@ -667,6 +667,10 @@ body {
         z-index: 9999999999999;
         top: 0;
     }
+    .modal-full-screen .topcustome{
+            background: #a5c0d1;
+            height: 24px;
+        }
     .modal-full-screen .modal-header .card-header-tabs{
         display: contents;
     }
@@ -675,6 +679,7 @@ body {
     }
     .modal-full-screen .modal-header{
         background: #a5c0d1;
+        border: unset;
     }
     .modal-full-screen .modal-header .close{
         position: relative;
@@ -682,7 +687,7 @@ body {
         left: -23px;
     }
     .modal-full-screen .w-50{
-        max-width: 50%;
+        max-width: 69%;
     }
     .modal-full-screen .modal-dialog{
         margin: 0;
