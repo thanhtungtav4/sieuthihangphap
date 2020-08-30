@@ -651,6 +651,7 @@ body {
 @media screen and (max-width: 768px) {
     .modal-full-screen{
         z-index: 9999999999999;
+        top: 0;
     }
     .modal-full-screen .modal-dialog{
         margin: 0;
