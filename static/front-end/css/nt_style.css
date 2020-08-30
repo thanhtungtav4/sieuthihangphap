@@ -558,10 +558,7 @@ body {
     z-index: 99999999;
 
 }
-.slick-slider .slick-list  .slick-slide img{
-    max-height: 450px !important;
-    width: auto;
-}
+
 .btn-to-top{
     bottom: 236px;
 }
@@ -605,10 +602,18 @@ body {
         font-size: 10px;
         text-align: center;
     }
+    .slick-slider .slick-list  .slick-slide img{
+        max-height: 450px;
+        width: auto;
+    }
 }
 @media screen and (max-width: 1000px) {
     .breadcrumb a {
         font-size: 1rem;
+    }
+    .slick-slider .slick-list  .slick-slide img{
+        max-height: 271px;
+        width: auto;
     }
     .breadcrumb .active {
         font-size: 1.2rem;
