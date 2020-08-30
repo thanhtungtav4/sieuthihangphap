@@ -1623,14 +1623,6 @@ line-height: 40px;
 .is_mobile .dropdown-toggle::after{
     display:none;
 }
-.btn-cart{
-  z-index: 10;
-  position: fixed;
-  bottom: 90px;
-  right: 20px;
-  width: 60px;
-  height: 60px;
-}
 
 .btn-cart img{width: 100%}
 .alert-error{

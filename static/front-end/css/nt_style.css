@@ -524,6 +524,34 @@ body {
     padding-right: 0;
 
 }
+.btn-update{
+    position: fixed;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    z-index: 99999999;
+}
+.btn-cart{
+    position: fixed;
+    bottom: 160px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    z-index: 99999999;
+
+}
+.btn-to-top{
+    bottom: 236px;
+}
+.zalo-btn {
+    bottom: 30px;
+}
+.mess-btn{
+    bottom: 85px;
+}
+.btn-update img{
+    width: 100%;
+}
 .input-group-nt .nt-hight-input{
     border-radius: unset;
 }
@@ -605,6 +633,10 @@ body {
     .btn-cart{
         width: 45px;
         height: auto;
+        bottom: 127px;
+    }
+    #back-to-top {
+        bottom: 184px;
     }
     #back-to-top{
         padding: .2rem 0.7rem;
@@ -627,6 +659,15 @@ body {
         height: 40px;
         font-size: 9px;
         padding: 5px 6px;
+    }
+    .btn-cart {
+        width: 40px;
+        height: auto;
+    }
+    #back-to-top{
+        width: 62px;
+        height: auto;
+        right: 8px;
     }
 }
 @media screen and (max-width: 700px) {
