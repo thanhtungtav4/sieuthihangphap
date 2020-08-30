@@ -565,6 +565,9 @@ body {
 .zalo-btn {
     bottom: 21px;
 }
+.pt-custome-152 img{
+    width: 100%;
+}
 .category-name a{
     font-weight: bold;
 }
