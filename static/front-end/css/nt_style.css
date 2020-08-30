@@ -562,6 +562,15 @@ body {
     }
 
 }
+@media screen and (max-width: 992px) {
+    .topnav a {
+        margin-top: 0;
+        margin-bottom: 0;
+        height: 34px;
+        position: relative;
+        top: -2px;
+    }
+}
 @media screen and (min-width: 768px) {
     .slider .slick-current{
         max-height: 500px;
@@ -570,6 +579,17 @@ body {
 @media screen and (max-width: 768px) {
     .group-info-item .item-price .item-add-cart {
         width: 100%;
+    }
+    .nt-seach-btn{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .btn-cart{
+        width: 45px;
+        height: auto;
+    }
+    #back-to-top{
+        padding: .2rem 0.7rem;
     }
 }
 @media screen and (max-width: 700px) {
