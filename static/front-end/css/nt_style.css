@@ -570,6 +570,9 @@ body {
         position: relative;
         top: -2px;
     }
+    .modal-body{
+        padding: 10px;
+    }
 }
 @media screen and (min-width: 768px) {
     .slider .slick-current{
