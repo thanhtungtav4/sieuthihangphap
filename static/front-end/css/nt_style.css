@@ -640,10 +640,14 @@ body {
     .slider .slick-current{
         max-height: 500px;
     }
+
 }
 @media screen and (max-width: 768px) {
     .pt-custome-152 {
         padding-top: 129px;
+    }
+    .gap {
+        padding-top: 117px;
     }
     .group-info-item .item-price .item-add-cart {
         width: 100%;
