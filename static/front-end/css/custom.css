@@ -126,7 +126,14 @@ table tr td {vertical-align: middle}
         transform: scaleY(1);
     }
 }
-
+.product-caterory-update {
+    color: #a5c0d1 !important;
+    font-weight: 700 !important;
+}
+.product-caterory-update-chid{
+    color: #ff0000 !important;
+    font-weight: 700 !important;
+}
 #myTabContent img {
     max-width: 100% !important;
     height: auto !important;

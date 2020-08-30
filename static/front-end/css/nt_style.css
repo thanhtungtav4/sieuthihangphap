@@ -284,7 +284,9 @@ video {
 .slider_box {
     height:200px;
 }
-
+.item-name {
+    height: 44px;
+}
 .slider_box img {
     height: 70px;
     width:auto;
@@ -540,6 +542,7 @@ body {
     z-index: 99999999;
 
 }
+
 .btn-to-top{
     bottom: 236px;
 }
