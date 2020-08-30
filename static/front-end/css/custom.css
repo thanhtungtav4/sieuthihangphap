@@ -44,7 +44,7 @@
     border-radius: unset;
 }
 .bg-info{
-    background-color: #a5c0d1;
+    background-color: #a5c0d1 !important;
     padding: 15px 20px;
 }
 .wishlist-table td {vertical-align: middle}
