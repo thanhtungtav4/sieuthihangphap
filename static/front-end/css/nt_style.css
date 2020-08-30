@@ -750,6 +750,9 @@ body {
     .sliderMain {
         max-width: 224px;
     }
+    .active-text-flash-seo {
+        font-size: 1.2rem;
+    }
 }
 @media screen and (max-width: 354px) {
     .d-flex .item-stars:not(:first-child)::before {
@@ -768,5 +771,8 @@ body {
 @media screen and (max-width: 325px) {
     .step h4 {
         font-size: 7px;
+    }
+    .text-right .view_more_nt {
+        font-size: 0.65rem;
     }
 }
