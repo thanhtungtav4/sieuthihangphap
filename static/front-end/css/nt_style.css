@@ -469,6 +469,9 @@ body {
 .collapse_nt .btn.collapsed:after {
     content: "\f105";
 }
+.nt-update-line{
+    border-bottom: 2px solid #a5c0d1;
+}
 .collapse_nt .btn-info {
     color: #4a6d81;
     font-size: 1rem;
