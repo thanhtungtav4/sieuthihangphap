@@ -1746,7 +1746,7 @@ line-height: 40px;
     height: 50px;
 }
 .step-icon {
-    margin: 15px auto;
+    margin: 10px auto;
 }
 .step h4 {
     color: #fff;
@@ -1769,6 +1769,9 @@ line-height: 40px;
     }
     .step h4 {
         font-size: 9px;
+    }
+    .footer-copyright {
+        margin-bottom: 87px;
     }
 }
 @media screen and (max-width: 480px) {
