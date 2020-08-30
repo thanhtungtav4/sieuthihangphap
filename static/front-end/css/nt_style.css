@@ -583,7 +583,6 @@ body {
 #ico{
     display: none;
 }
-
 .slider_box{
     max-width: 109px !important;
 }
@@ -649,6 +648,9 @@ body {
 
 }
 @media screen and (max-width: 768px) {
+    .modal-full-screen{
+        z-index: 9999999999999;
+    }
     .pt-custome-152 {
         padding-top: 129px;
     }
