@@ -594,6 +594,14 @@ body {
     #back-to-top{
         padding: .2rem 0.7rem;
     }
+    .item-discount {
+        width: 40px;
+        height: 40px;
+        font-size: 13px;
+        padding: 13px 5px;
+        margin-top: 10px;
+    }
+    .it
 }
 @media screen and (max-width: 700px) {
     .nt-tab-product .nav-item .nav-link{
