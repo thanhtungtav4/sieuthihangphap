@@ -488,7 +488,7 @@ body {
     font-weight: 800;
 }
 .category-name {
-    padding-top: 7px;
+    padding-top: 0;
 }
 .btn-info:not(:disabled):not(.disabled).active, .btn-info:not(:disabled):not(.disabled):active, .show>.btn-info.dropdown-toggle {
     color: #fff;
@@ -521,6 +521,10 @@ body {
     color: #fff;
     background-color: #4b6e86;
     border-color: #4b6e86;
+}
+.nt-update-line .nav-item .nav-link{
+    padding-right: 5px;
+    padding-left: 5px;
 }
 .btn-secondary {
     color: #fff;
