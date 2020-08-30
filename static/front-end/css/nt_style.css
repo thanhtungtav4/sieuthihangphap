@@ -519,6 +519,14 @@ body {
     background-size: cover !important;
 
 }
+.input-group-nt{
+    padding-left: 0;
+    padding-right: 0;
+
+}
+.input-group-nt .nt-hight-input{
+    border-radius: unset;
+}
 #ico{
     display: none;
 }
@@ -538,6 +546,7 @@ body {
     .item-price-old {
         color: #a5c0d1;
         font-size: 10px;
+        text-align: center;
     }
 }
 @media screen and (max-width: 1000px) {
