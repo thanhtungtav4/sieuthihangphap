@@ -944,3 +944,10 @@ body {
         font-size: 0.65rem;
     }
 }
+/*//custome container*/
+@media (min-width: 1500px){
+    .container {
+            max-width: 1450px;
+    }
+}
+
