@@ -481,6 +481,9 @@ body {
     border-color: #a5c0d1;
     margin-bottom: 7px;
 }
+.cate-line{
+    font-weight: 800;
+}
 .btn-info:not(:disabled):not(.disabled).active, .btn-info:not(:disabled):not(.disabled):active, .show>.btn-info.dropdown-toggle {
     color: #fff;
     background-color: #a5c0d1;
