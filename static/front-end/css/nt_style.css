@@ -565,6 +565,9 @@ body {
 .zalo-btn {
     bottom: 21px;
 }
+.category-name a{
+    font-weight: bold;
+}
 .mess-btn{
     bottom: 85px;
 }
