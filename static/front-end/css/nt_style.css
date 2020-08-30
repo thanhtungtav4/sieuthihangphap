@@ -653,6 +653,17 @@ body {
         z-index: 9999999999999;
         top: 0;
     }
+    .modal-full-screen .modal-header{
+        background: #a5c0d1;
+    }
+    .modal-full-screen .modal-header .close{
+        position: relative;
+        top: 17px;
+        left: -23px;
+    }
+    .modal-full-screen .w-50{
+        max-width: 50%;
+    }
     .modal-full-screen .modal-dialog{
         margin: 0;
     }
@@ -794,6 +805,9 @@ body {
     }
     .nt-nav-link {
         font-size: 11px;
+    }
+    .pt-custome-152 {
+        padding-top: 116px;
     }
 }
 @media screen and (max-height: 450px) {
