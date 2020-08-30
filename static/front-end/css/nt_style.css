@@ -654,6 +654,9 @@ body {
         top: 0;
     }
     .modal-full-screen .modal-header{
+        
+    }
+    .modal-full-screen .modal-header{
         background: #a5c0d1;
     }
     .modal-full-screen .modal-header .close{
