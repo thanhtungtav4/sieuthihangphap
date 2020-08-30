@@ -632,6 +632,11 @@ body {
     }
 
 }
+@media screen and (max-width: 484px) {
+    .footer-copyright {
+        margin-bottom: 76px;
+    }
+}
 @media screen and (max-width: 480px) {
     .nt-nav-link {
         font-size: 11px;
@@ -727,5 +732,10 @@ body {
     }
     .sliderMain {
         max-width: 210px;
+    }
+}
+@media screen and (max-width: 325px) {
+    .step h4 {
+        font-size: 7px;
     }
 }
