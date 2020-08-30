@@ -723,7 +723,7 @@ body {
 }
 @media screen and (max-width: 350px) {
     .item-add-cart {
-        font-size: 11px;
+        font-size: 10px;
     }
     .sliderMain {
         max-width: 210px;
