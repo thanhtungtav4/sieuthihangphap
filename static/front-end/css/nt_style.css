@@ -604,7 +604,26 @@ body {
 .main>.slider-for .slick-list .slick-track .slick-current img{
     height: fit-content;
 }
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+.video-wrapper iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+@media screen and (min-width: 1200px) {
+    .gap {
+        padding-top: 186px;
+    }
+}
 @media screen and (min-width: 992px) {
+
     .item-price-old {
         color: #a5c0d1;
         font-size: 10px;
@@ -616,6 +635,9 @@ body {
     }
 }
 @media screen and (max-width: 1000px) {
+    .gap {
+        padding-top: 140px;
+    }
     .breadcrumb a {
         font-size: 1rem;
     }
