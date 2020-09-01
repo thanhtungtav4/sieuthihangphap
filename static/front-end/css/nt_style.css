@@ -604,10 +604,14 @@ body {
 .main>.slider-for .slick-list .slick-track .slick-current img{
     height: fit-content;
 }
-
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1499px) {
     .gap {
         padding-top: 186px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .pt-custome-152 {
+        padding-top: 185px;
     }
 }
 @media screen and (min-width: 992px) {
