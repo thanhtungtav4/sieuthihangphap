@@ -481,6 +481,19 @@ body {
     border-color: #a5c0d1;
     margin-bottom: 7px;
 }
+#youlike .owl-carousel .owl-item img {
+    display: block;
+    width: auto;
+    text-align: center;
+    margin: 0 auto;
+}
+#youlike .product-thumb a img {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    right: 10%;
+    height: 100%;
+}
 .pt-custome-152{
     padding-top: 152px;
 }
