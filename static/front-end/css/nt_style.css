@@ -604,19 +604,7 @@ body {
 .main>.slider-for .slick-list .slick-track .slick-current img{
     height: fit-content;
 }
-.video-wrapper {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-}
-.video-wrapper iframe {
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
+
 @media screen and (min-width: 1200px) {
     .gap {
         padding-top: 186px;
@@ -811,7 +799,14 @@ body {
     .category-name{
         height: 31px;
     }
-
+    .video-wrapper {
+        top:0;
+        left: 0;
+        position: relative;
+        padding-top: 5.25%;
+        width: auto;
+        height: 275px;
+    }
 }
 @media screen and (max-width: 500px) {
     .nt-tab-product .nav-item .nav-link{
@@ -885,6 +880,17 @@ body {
         padding:10px;
     }
 }
+@media screen and (max-width: 350px) {
+    .sliderMain {
+        max-width: 300px;
+    }
+}
+@media screen and (max-width: 430px) {
+    .sliderMain {
+        max-width: 295px;
+    }
+
+}
 @media screen and (max-width: 420px) {
     .sliderMain {
         max-width: 271px;
@@ -917,18 +923,19 @@ body {
         font-size: 8px;
     }
     .sliderMain {
-        max-width: 240px;
+        max-width: 260px;
     }
     .sliderSidebar {
         width: 66px;
     }
 }
+
 @media screen and (max-width: 375px) {
     .nt-acc, .login-home {
         font-size: 0.9rem;
     }
     .sliderMain {
-        max-width: 224px;
+        max-width: 265px;
     }
     .active-text-flash-seo {
         font-size: 1.2rem;
@@ -938,24 +945,50 @@ body {
         padding-right: 3px;
     }
 }
+@media screen and (max-width: 360px)
+{
+    .sliderMain {
+        max-width: 260px;
+    }
+}
+@media screen and (max-width: 357px) {
+    .d-flex .item-stars:not(:first-child)::before {
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+    .sliderMain {
+        max-width: 250px;
+    }
+}
+
 @media screen and (max-width: 354px) {
     .d-flex .item-stars:not(:first-child)::before {
         padding-left: 1px;
         padding-right: 1px;
     }
 }
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 352px) {
     .item-add-cart {
         font-size: 10px;
     }
     .sliderMain {
-        max-width: 210px;
+        max-width: 240px;
+    }
+}
+@media screen and (max-width: 337px) {
+    .sliderMain {
+        max-width: 230px;
     }
 }
 @media screen and (max-width: 335px) {
     .modal-full-screen  .nav-tabs .nav-item a {
         padding-left: 1px;
         padding-right: 1px;
+    }
+}
+@media screen and (max-width: 328px) {
+    .sliderMain {
+        max-width: 224px;
     }
 }
 @media screen and (max-width: 325px) {
