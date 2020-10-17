@@ -269,6 +269,8 @@ video {
     font-size: 15px;
     font-weight: 700;
     color: #4a6d81;
+    width: max-content;
+    border: 1px solid #4a6d81;
 }
 .item-money-price {
     font-size: 13px;
@@ -454,6 +456,10 @@ body {
     padding-bottom: 0px;
     font-weight: bold;
     font-family: "Segoe UI";
+    width: max-content;
+    background: #e50000;
+    color: #fff;
+    padding-top: 0;
 }
 /*////*/
 .collapse_nt .btn:after {
