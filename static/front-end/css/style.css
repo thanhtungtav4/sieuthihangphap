@@ -375,22 +375,22 @@ label.star:before {
 }
 .item-add-cart img{width: 16px;margin-right: 6px;}
 
-.item-name{
-    font-size: 15px;
-    margin: 0 0 10px 0;
-    font-weight: 500;
-    overflow: hidden;
-    display: -moz-box;
-    display: -webkit-box;
-    display: box;
-    -webkit-line-clamp: 2;
-    -moz-box-orient: vertical;
-    -webkit-box-orient: vertical;
-    box-orient: vertical;
-    word-break: break-word;
-    margin: 0 auto;
-    text-align: center;
-}
+/*.item-name{*/
+/*    font-size: 15px;*/
+/*    margin: 0 0 10px 0;*/
+/*    font-weight: 500;*/
+/*    overflow: hidden;*/
+/*    display: -moz-box;*/
+/*    display: -webkit-box;*/
+/*    display: box;*/
+/*    -webkit-line-clamp: 2;*/
+/*    -moz-box-orient: vertical;*/
+/*    -webkit-box-orient: vertical;*/
+/*    box-orient: vertical;*/
+/*    word-break: break-word;*/
+/*    margin: 0 auto;*/
+/*    text-align: center;*/
+/*}*/
 
 .item-money-price{
 	font-size: 15px;

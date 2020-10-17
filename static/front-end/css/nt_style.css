@@ -284,9 +284,9 @@ video {
 .slider_box {
     height:200px;
 }
-.item-name {
-    height: 44px;
-}
+/*.item-name {*/
+/*    height: 44px;*/
+/*}*/
 .slider_box img {
     height: 70px;
     width:auto;
