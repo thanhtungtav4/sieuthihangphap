@@ -617,6 +617,14 @@ body {
 .main>.slider-for .slick-list .slick-track .slick-current img{
     height: fit-content;
 }
+.owl-carousel .owl-item img, .nt-fix-check img{
+    max-height: 450px;
+}
+.top-img-fix .news-thumb {
+    width: 77%;
+    margin: 0 auto;
+    text-align: center;
+}
 @media screen and (min-width: 1499px) {
     .gap {
         padding-top: 186px;
