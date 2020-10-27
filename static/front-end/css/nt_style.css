@@ -943,13 +943,13 @@ body {
   .item-stars  label.star:before {
         content: '\f006';
         font-family: FontAwesome;
-        font-size: 12px;
+        font-size: 11px;
     }
     .sliderMain {
         max-width: 260px;
     }
     .active-text-flash-seo{
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
     .text-right .view_more_nt{
         font-size: 0.7rem;
