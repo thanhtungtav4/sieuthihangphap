@@ -290,7 +290,7 @@ table tr td {vertical-align: middle}
     font-weight: bold;
 }
 .check_is_hot{
-    color: red;
+    /*color: red;*/
     font-weight: bold;
 }
 .footer-box-update li, .nt-footer-p{
