@@ -874,7 +874,7 @@ body {
 }
 @media screen and (max-width: 484px) {
     .footer-copyright {
-        margin-bottom: 76px;
+        margin-bottom: 0px;
     }
 }
 @media screen and (max-width: 480px) {
