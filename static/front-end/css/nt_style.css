@@ -872,6 +872,12 @@ body {
     }
 
 }
+.scrollToTopCopyright {
+    display: none;
+}
+.showBtn {
+    display: block;
+}
 @media screen and (max-width: 484px) {
     .footer-copyright {
         margin-bottom: 0px;
